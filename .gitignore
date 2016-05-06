@@ -1,0 +1,16 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+vendors/
+platforms/
+plugins/
+/.idea/workspace.xml
+/.idea/libraries
+.idea/
+.idea/workspace.xml
+.DS_Store
+<<<<<<< HEAD
+/.DS_Store
+=======
+>>>>>>> master
