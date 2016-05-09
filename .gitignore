@@ -5,6 +5,7 @@ node_modules/
 vendors/
 platforms/
 plugins/
+www/
 /.idea/workspace.xml
 /.idea/libraries
 .idea/

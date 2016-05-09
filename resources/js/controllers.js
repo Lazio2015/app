@@ -39,13 +39,15 @@ angular.module('starter.controllers', [])
         firstname: ''
       };
 
-    var db = $cordovaSQLite.openDB({name: 'mydb1.db', iosDatabaseLocation: 'default'});
+    //var db = $cordovaSQLite.openDB({name: 'mydb1.db', iosDatabaseLocation: 'default'});
+    var db = window.openDatabase('mydb1.db', "1.0", "My app", -1);
 
     exCtrl.items = [];
     exCtrl.save = function(item) {
-      exCtrl.items.push(item);
         var query = "INSERT INTO people (firstname, lastname) VALUES (?,?)";
         $cordovaSQLite.execute(db, query, [item.firstname, item.lastname]).then(function(res) {
+          item.id = res.insertId;
+          exCtrl.items.push(item);
           console.log("INSERT ID -> " + res.insertId);
         }, function (err) {
           console.error(err);
