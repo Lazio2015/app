@@ -16,8 +16,8 @@ angular.module('starter', [
     .factory('Cities', function() {
         var cities = [{
             id: 524901,
-            name: 'Москва',
-            desc: 'Столица нашей Родины',
+            name: 'пїЅпїЅпїЅпїЅпїЅпїЅ',
+            desc: 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ',
             emblem: 'http://upload.wikimedia.org/wikipedia/commons/d/da/Coat_of_Arms_of_Moscow.png'
         }];
         return {
@@ -76,7 +76,8 @@ angular.module('starter', [
         };
 
         //var db = $cordovaSQLite.openDB({name: 'mydb1.db', iosDatabaseLocation: 'default'});
-        var db = window.openDatabase('mydb1.db', "1.0", "My app", -1);
+        //var db = window.sqlitePlugin.openDatabase({name: "mydb1.db", createFromLocation: 1});
+        //var db = window.openDatabase('mydb1.db', "1.0", "My app", -1);
 
         exCtrl.items = [];
         exCtrl.save = function(item) {

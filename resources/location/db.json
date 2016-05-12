@@ -1,0 +1,47 @@
+{
+  "data": [
+      {
+        "id": 1,
+        "fruits": [
+          {
+            "id": 1,
+            "name": "orange"
+          },
+          {
+            "id": 2,
+            "name": "orange2"
+          },
+          {
+            "id": 3,
+            "name": "orange3"
+          },
+          {
+            "id": 4,
+            "name": "orange4"
+          },
+          {
+            "id": 5,
+            "name": "orange5"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "vegetables": [
+          {
+            "id": 1,
+            "name": "tomatoes"
+          },
+          {
+            "id": 2,
+            "name": "tomatoes2"
+          },
+          {
+            "id": 3,
+            "name": "tomatoes"
+          }
+        ]
+      }
+    ],
+  "status" : "200"
+}
