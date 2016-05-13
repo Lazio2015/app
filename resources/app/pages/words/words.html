@@ -5,7 +5,7 @@
         <div class="list list-inset">
 
             <div class="item" ng-repeat="item in words.items">
-                <span ng-click="words.play('notific.mp3')">{{item.name}}</span>
+                <span ng-click="words.play(item.filename)">{{item.name}}</span>
             </div>
         </div>
 

@@ -23,7 +23,7 @@ function WordsCtrl($ionicLoading, $cordovaMedia, $scope, WordsService) {
 
     words.play = function(src) {
         console.log('click');
-        var url = "/android_asset/www/sound/".src;
+        var url = "/android_asset/www/sound/" + src;
         var media = $cordovaMedia.newMedia(url);
         media.play();
         //var media = new Media(src, null, null, mediaStatusCallback);
