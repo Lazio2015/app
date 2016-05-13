@@ -41,7 +41,6 @@ angular.module('starter', [
     $scope.click = function() {
         $scope.orientationSound = document.getElementById("orientationSound");
         $scope.orientationSound.play();
-        $scope.orientationSound.play();
     };
 })
     .controller('CityDetailCtrl', function($scope, $http, $stateParams, $ionicPopup) {
@@ -76,7 +75,7 @@ angular.module('starter', [
         };
 
         //var db = $cordovaSQLite.openDB({name: 'mydb1.db', iosDatabaseLocation: 'default'});
-        //var db = window.sqlitePlugin.openDatabase({name: "mydb1.db", createFromLocation: 1});
+        var db = window.sqlitePlugin.openDatabase({name: "mydb1.db", createFromLocation: 1});
         //var db = window.openDatabase('mydb1.db', "1.0", "My app", -1);
 
         exCtrl.items = [];

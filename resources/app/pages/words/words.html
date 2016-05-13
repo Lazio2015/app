@@ -2,30 +2,37 @@
     <ion-content>
         {{words.title}}
 
-        <div class="block" ng-switch="words.items.length > 0">
-            <div class="list" ng-repeat="item in words.items" ng-switch-when="true">
-                <p>
-                    {{item.name}} --- {{item.filename}}
-                <div style="width:20px; height: 20px">
-                    <i style="margin-left:15px;" class="ion-close-round" ng-click="words.remove(item.id)"></i>
-                </div>
-                </p>
+        <div class="list list-inset">
+
+            <div class="item" ng-repeat="item in words.items">
+                <span ng-click="words.play('notific.mp3')">{{item.name}}</span>
             </div>
-            <span ng-switch-when="false"> No data</span>
         </div>
 
+        <!--<div class="block" ng-switch="words.items.length > 0">-->
+            <!--<div class="list" ng-repeat="item in words.items" ng-switch-when="true">-->
+                <!--<p>-->
+                    <!--{{item.name}} -&#45;&#45; {{item.filename}}-->
+                <!--<div style="width:20px; height: 20px">-->
+                    <!--<i style="margin-left:15px;" class="ion-close-round" ng-click="words.remove(item.id)"></i>-->
+                <!--</div>-->
+                <!--</p>-->
+            <!--</div>-->
+            <!--<span ng-switch-when="false"> No data</span>-->
+        <!--</div>-->
 
-        <label class="item item-input">
-            <span class="input-label">Name: </span>
-            <input type="text" ng-model="words.model.name" placeholder="please enter word">
-        </label>
-        <label class="item item-input">
-            <span class="input-label">Music Name: </span>
-            <input type="text" ng-model="words.model.filename" placeholder="please enter music name">
-        </label>
-        <button class="button button-block" ng-click="words.save()">
-            Save
-        </button>
+
+        <!--<label class="item item-input">-->
+            <!--<span class="input-label">Name: </span>-->
+            <!--<input type="text" ng-model="words.model.name" placeholder="please enter word">-->
+        <!--</label>-->
+        <!--<label class="item item-input">-->
+            <!--<span class="input-label">Music Name: </span>-->
+            <!--<input type="text" ng-model="words.model.filename" placeholder="please enter music name">-->
+        <!--</label>-->
+        <!--<button class="button button-block" ng-click="words.save()">-->
+            <!--Save-->
+        <!--</button>-->
 
     </ion-content>
 </ion-view>

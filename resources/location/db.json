@@ -2,7 +2,8 @@
   "data": [
       {
         "id": 1,
-        "fruits": [
+        "name" : "fruits",
+        "list": [
           {
             "id": 1,
             "name": "orange"
@@ -27,17 +28,18 @@
       },
       {
         "id": 2,
-        "vegetables": [
+        "name" : "vegetables",
+        "list": [
           {
-            "id": 1,
+            "id": 6,
             "name": "tomatoes"
           },
           {
-            "id": 2,
+            "id": 7,
             "name": "tomatoes2"
           },
           {
-            "id": 3,
+            "id": 8,
             "name": "tomatoes"
           }
         ]
