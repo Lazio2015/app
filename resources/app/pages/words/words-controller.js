@@ -38,7 +38,38 @@ function WordsCtrl($ionicLoading, $cordovaMedia, $scope, WordsService) {
         //};
     };
 
+    words.handlers = function (){
+        return {
 
+        }
+    };
+
+    words.list = [
+        {
+            text: "Lorem", weight: 13, id: "2",
+            filename: 'ffff'
+        },
+        {text: "Ipsum", weight: 10.5},
+        {text: "Dolor", weight: 9.4},
+        {text: "Sit", weight: 8},
+        {text: "Amet", weight: 6.2},
+        {text: "Consectetur", weight: 5},
+        {text: "Adipiscing", weight: 5}
+    ];
+    angular.forEach(words.list, function(item) {
+        item.handlers = {
+            click: function (e) {
+                //play name music
+                console.log('e', e);
+                //jQuery(e.target).hide();
+                console.log(words.list.length);
+                if (item.id) {
+                    words.list = angular.removeFromObjectArray(words.list, item.id);
+                    console.log(words.list.length);
+                }
+            }
+        }
+    });
 
     words.resolve = function() {
         words.loadAllWords();

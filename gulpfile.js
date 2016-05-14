@@ -23,7 +23,10 @@ var paths = {
 
 var vendors = [
   //"vendors/angular-cookie/angular-cookie.js",
-  "vendors/ngCordova/dist/ng-cordova.js"
+  "vendors/jquery/dist/jquery.js",
+  "vendors/ngCordova/dist/ng-cordova.js",
+  "vendors/jqcloud2/dist/jqcloud.js",
+  "vendors/angular-jqcloud/angular-jqcloud.js"
 ];
 
 gulp.task('sass', function(done) {

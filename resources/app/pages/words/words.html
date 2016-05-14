@@ -1,4 +1,4 @@
-<ion-view class="app-background">
+<ion-view class="app1-background">
     <ion-content>
         {{words.title}}
 
@@ -8,7 +8,7 @@
                 <span ng-click="words.play(item.filename)">{{item.name}}</span>
             </div>
         </div>
-
+        <jqcloud words="words.list" width="300" height="150" steps="7" id="jcloud"></jqcloud>
         <!--<div class="block" ng-switch="words.items.length > 0">-->
             <!--<div class="list" ng-repeat="item in words.items" ng-switch-when="true">-->
                 <!--<p>-->
@@ -36,3 +36,8 @@
 
     </ion-content>
 </ion-view>
+<!--<script>-->
+<!--//    $('#demo').jQCloud(words, {-->
+<!--//        autoResize: true-->
+<!--//    });-->
+<!--</script>-->

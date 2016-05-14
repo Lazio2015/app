@@ -4,7 +4,8 @@ function WordsService($http) {
     WordsService._$http = $http;
 
     WordsService.list = function(){
-        return WordsService._$http.get('/android_asset/www/locations/db.json');
+        //android_asset/www/
+        return WordsService._$http.get('./locations/db.json');
     };
 
     return WordsService;

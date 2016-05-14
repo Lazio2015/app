@@ -1,7 +1,8 @@
 var db = null;
 angular.module('starter', [
     'ionic',
-    'ngCordova'
+    'ngCordova',
+    'angular-jqcloud'
 ])
 
 //config & run
