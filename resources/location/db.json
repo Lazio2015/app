@@ -6,27 +6,27 @@
         "list": [
           {
             "id": 1,
-            "name": "orange",
+            "text": "orange",
             "filename": "notific.mp3"
           },
           {
             "id": 2,
-            "name": "orange2",
+            "text": "orange2",
             "filename": "notific.mp3"
           },
           {
             "id": 3,
-            "name": "orange3",
+            "text": "orange3",
             "filename": "notific.mp3"
           },
           {
             "id": 4,
-            "name": "orange4",
+            "text": "orange4",
             "filename": "orientation.mp3"
           },
           {
             "id": 5,
-            "name": "orange5",
+            "text": "orange5",
             "filename": "orientation.mp3"
           }
         ]
@@ -37,15 +37,15 @@
         "list": [
           {
             "id": 6,
-            "name": "tomatoes"
+            "text": "tomatoes"
           },
           {
             "id": 7,
-            "name": "tomatoes2"
+            "text": "tomatoes2"
           },
           {
             "id": 8,
-            "name": "tomatoes"
+            "text": "tomatoes"
           }
         ]
       }

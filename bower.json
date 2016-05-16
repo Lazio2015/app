@@ -8,6 +8,7 @@
   "dependencies": {
     "angular-cookie": "~4.0.9",
     "ngCordova": "~0.1.23-alpha",
-    "angular-jquery": "~0.2.1"
+    "angular-jquery": "~0.2.1",
+    "angular-jqcloud": "^1.0.2"
   }
 }
