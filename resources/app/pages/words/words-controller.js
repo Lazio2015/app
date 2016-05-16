@@ -1,8 +1,10 @@
-function WordsCtrl($ionicLoading, $cordovaMedia, $scope, WordsService) {
+function WordsCtrl($ionicLoading, $cordovaMedia, $scope, WordsService, $timeout) {
     var words = this;
     words.title = 'Words Ctrl';
     words.allItems = [];
     words.current = 0;
+    words.imageStay = false;
+    words.disabled = false;
 
     words.loadAllWords = function() {
         WordsService.list()
@@ -22,10 +24,17 @@ function WordsCtrl($ionicLoading, $cordovaMedia, $scope, WordsService) {
     };
 
     words.play = function(src) {
-        console.log('click');
         var url = "/android_asset/www/sound/" + src;
-        var media = $cordovaMedia.newMedia(url);
+        var media = $cordovaMedia.newMedia(url, function() {
+            words.imageStay = false;
+            alert('played');
+        });
         media.play();
+        media.release();
+
+      $timeout(function () {
+        words.imageStay = false;
+      }, 5000);
         //var media = new Media(src, null, null, mediaStatusCallback);
         //$cordovaMedia.play(media);
         //
@@ -38,20 +47,21 @@ function WordsCtrl($ionicLoading, $cordovaMedia, $scope, WordsService) {
         //};
     };
 
-    words.handlers = function (){
-        return {
-
-        }
-    };
-
     words.list = [
         {
-            text: "Lorem", weight: 13, id: "2",
-            filename: 'ffff'
+            text: "Lorem", weight: 13,
+            id: "2",
+            filename: 'notific.mp3'
         },
-        {text: "Ipsum", weight: 10.5},
-        {text: "Dolor", weight: 9.4},
-        {text: "Sit", weight: 8},
+        {text: "Ipsum", weight: 10.5,
+            id: "3",
+            filename: 'notific.mp3'},
+        {text: "Dolor", weight: 9.4,
+          id: "4",
+          filename: 'guhesh.mp3'},
+        {text: "Sit", weight: 8,
+          id: "5",
+          filename: 'elvaj.mp3'},
         {text: "Amet", weight: 6.2},
         {text: "Consectetur", weight: 5},
         {text: "Adipiscing", weight: 5}
@@ -60,13 +70,10 @@ function WordsCtrl($ionicLoading, $cordovaMedia, $scope, WordsService) {
         item.handlers = {
             click: function (e) {
                 //play name music
-                console.log('e', e);
+                words.imageStay = true;
+                words.play(item.filename);
                 //jQuery(e.target).hide();
-                console.log(words.list.length);
-                if (item.id) {
-                    words.list = angular.removeFromObjectArray(words.list, item.id);
-                    console.log(words.list.length);
-                }
+                words.list = angular.removeFromObjectArray(words.list, item.id);
             }
         }
     });

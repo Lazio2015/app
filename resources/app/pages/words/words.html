@@ -1,13 +1,7 @@
 <ion-view class="app1-background">
     <ion-content>
         {{words.title}}
-
-        <div class="list list-inset">
-
-            <div class="item" ng-repeat="item in words.items">
-                <span ng-click="words.play(item.filename)">{{item.name}}</span>
-            </div>
-        </div>
+<img ng-class="{true: 'stay1', false: 'stay2'}[words.imageStay]"/>
         <jqcloud words="words.list" width="300" height="150" steps="7" id="jcloud"></jqcloud>
         <!--<div class="block" ng-switch="words.items.length > 0">-->
             <!--<div class="list" ng-repeat="item in words.items" ng-switch-when="true">-->
