@@ -1,57 +1,28 @@
 <ion-view class="app1-background">
     <ion-content>
-        {{words.title}}
-<img ng-class="{true: 'stay1', false: 'stay2'}[words.imageStay]"/>
-        <jqcloud words="words.list" width="300" height="150" steps="7" id="jcloud"></jqcloud>
-
-        <!--<video>-->
-            <!--<source src="/android_asset/www/video/sow.mov">-->
-        <!--</video>-->
-        <!--<video controls="controls" width="800" height="600" name="Video Name" src="/android_asset/www/video/sow.mov"></video>-->
-
-        <!--<div class="embeddedVideo">-->
-            <!--<object classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B'-->
-                    <!--width="600" height="400">-->
-                <!--<param name='src' value="/android_asset/www/video/sow.mov">-->
-                <!--<param name='autoplay' value="false">-->
-                <!--<param name='controller' value="true">-->
-                <!--<param name='loop' value="false">-->
-
-                <!--<embed src="/android_asset/www/video/sow.mov" width="600" height="400"-->
-                       <!--scale="tofit" autoplay="true"-->
-                       <!--controller="true" loop="false" bgcolor="#000000">-->
-                <!--</embed>-->
-            <!--</object>-->
-        <!--</div>-->
-        <!--<div class="block" ng-switch="words.items.length > 0">-->
-            <!--<div class="list" ng-repeat="item in words.items" ng-switch-when="true">-->
-                <!--<p>-->
-                    <!--{{item.name}} -&#45;&#45; {{item.filename}}-->
-                <!--<div style="width:20px; height: 20px">-->
-                    <!--<i style="margin-left:15px;" class="ion-close-round" ng-click="words.remove(item.id)"></i>-->
-                <!--</div>-->
-                <!--</p>-->
+        <div class="row">
+            <!--<div class="col col-50">-->
+                <!--<jqcloud auto-resize="true" font-size="{from:0.3, to:0.1}" words="words.currentItem.list" steps="7" id="cloud-dynamic"></jqcloud>-->
             <!--</div>-->
-            <!--<span ng-switch-when="false"> No data</span>-->
-        <!--</div>-->
-
-
-        <!--<label class="item item-input">-->
-            <!--<span class="input-label">Name: </span>-->
-            <!--<input type="text" ng-model="words.model.name" placeholder="please enter word">-->
-        <!--</label>-->
-        <!--<label class="item item-input">-->
-            <!--<span class="input-label">Music Name: </span>-->
-            <!--<input type="text" ng-model="words.model.filename" placeholder="please enter music name">-->
-        <!--</label>-->
-        <!--<button class="button button-block" ng-click="words.save()">-->
-            <!--Save-->
-        <!--</button>-->
-
+            <!--<div class="col col-50">-->
+                <!--<div class="list" ng-if="!words.end">-->
+                    <!--<div id="word-cloud">-->
+                        <!--<span style="cursor:pointer" ng-click="words.imageStay || words.sayWord(item)" ng-disabled="words.imageStay" ng-repeat="item in words.currentItem.list" class="word-{{$index+1}}">{{item.text}}</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="col col-50">
+                <div class="list" ng-if="!words.end">
+                    <div class="item" style="float:left; width:50%; border:0px;" ng-repeat="item in words.currentItem.list" ng-click="words.imageStay || words.sayWord(item)" ng-disabled="words.imageStay">
+                        <span>{{item.text}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-50">
+                {{words.currentItem.name}}
+                <img ng-class="{true: 'stay1', false: 'stay2'}[words.imageStay]"/>
+            </div>
+            <audio src="{{words.file}}" id="sound"></audio>
+        </div>
     </ion-content>
 </ion-view>
-<!--<script>-->
-<!--//    $('#demo').jQCloud(words, {-->
-<!--//        autoResize: true-->
-<!--//    });-->
-<!--</script>-->

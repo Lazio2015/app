@@ -3,37 +3,39 @@
       {
         "id": 1,
         "name" : "fruits",
+        "filename": "notific.mp3",
         "list": [
           {
             "id": 1,
-            "text": "orange",
-            "filename": "notific.mp3"
+            "text": "Еда",
+            "filename": "sound/orientation.mp3"
           },
           {
             "id": 2,
-            "text": "orange2",
-            "filename": "notific.mp3"
+            "text": "Блюдо",
+            "filename": "sound/notific.mp3"
           },
           {
             "id": 3,
-            "text": "orange3",
-            "filename": "notific.mp3"
+            "text": "rido",
+            "filename": "sound/rido.mp3"
           },
           {
             "id": 4,
             "text": "orange4",
-            "filename": "orientation.mp3"
+            "filename": "sound/notific.mp3"
           },
           {
             "id": 5,
             "text": "orange5",
-            "filename": "orientation.mp3"
+            "filename": "sound/orientation.mp3"
           }
         ]
       },
       {
         "id": 2,
         "name" : "vegetables",
+        "filename":  "notific.mp3",
         "list": [
           {
             "id": 6,
@@ -48,7 +50,39 @@
             "text": "tomatoes"
           }
         ]
-      }
+      },
+    {
+          "id": 1,
+          "name" : "fruits",
+          "filename": "notific.mp3",
+          "list": [
+            {
+              "id": 1,
+              "text": "Едfdgdfgdgfdа",
+              "filename": "notific.mp3"
+            },
+            {
+              "id": 2,
+              "text": "Блюдdfgdfgdо",
+              "filename": "notific.mp3"
+            },
+            {
+              "id": 3,
+              "text": "fdgdfgdgfdg",
+              "filename": "notific.mp3"
+            },
+            {
+              "id": 4,
+              "text": "dfgdfgdfg",
+              "filename": "orientation.mp3"
+            },
+            {
+              "id": 5,
+              "text": "dfgdg",
+              "filename": "orientation.mp3"
+            }
+          ]
+    }
     ],
   "status" : "200"
 }

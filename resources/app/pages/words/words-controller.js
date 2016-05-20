@@ -1,102 +1,125 @@
-function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout) {
+function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $sce) {
     var words = this;
     words.title = 'Words Ctrl';
     words.allItems = [];
-    words.list = [
-        {
-            text: "Lorem", weight: 13,
-            id: 2,
-            filename: 'notific.mp3'
-        },
-        {text: "Ipsum", weight: 10.5,
-            id: 3,
-            filename: 'notific.mp3'},
-        {text: "Dolor", weight: 9.4,
-          id: 4,
-          filename: 'notific.mp3'},
-        {text: "Sit", weight: 8,
-          id: 5,
-          filename: 'notific.mp3'},
-        {text: "Amet", weight: 6.2, id: 6},
-        {text: "Consectetur", weight: 15, id:7},
-        {text: "Adipiscing", weight: 15, id:1}
-    ];
-    words.current = 0;
+    words.currentItem = {
+        list: [],
+        filename: ""
+    };
+    words.counter = 0;
     words.imageStay = false;
     words.disabled = false;
+    words.end = false;
 
     words.loadAllWords = function() {
         WordsService.list()
             .success(function (resp) {
                 words.allItems = resp.data;
-                console.log('w', words.list);
+                words.currentItem = words.getWordsByCategoryId(words.counter);
             })
             .error(function (data, status, headers, config) {
-                $scope.showAlert(status, data);
+                //$scope.showAlert(status, data);
                 $scope.$broadcast('scroll.refreshComplete');
             });
     };
 
     words.getWordsByCategoryId = function (i){
-        return words.allItems[i].list;
+        return angular.isUndefinedOrNull(words.allItems[i]) ? null : words.allItems[i];
     };
 
-    words.play = function(src) {
+    words.sayWord = function(item) {
+        words.imageStay = true;
+        words.file = item.filename;
+        words.sound = document.getElementById("sound");
+        setTimeout(function () {
+            words.sound.play();
+            var duration = words.sound.duration;
+            console.log(duration);
+            $timeout(function() {
+                words.imageStay = false;
+                //words.sound.pause();
+                words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
+                console.log('kill');
+            }, 1000*duration);
+        }, 150);
+    };
+
+    //words.sound_on = false;
+    //words.play = function(item) {
+    //    var url = "/android_asset/www/sound/" + item.filename;
+    //    var media = $cordovaMedia.newMedia(url, null, null, mediaStatusCallback);
+    //    if (words.sound_on == true) {
+    //        media.stop();
+    //        media.release();
+    //    }
+    //    words.sound_on = true;
+    //    media.play();
+    //
+    //    $timeout(function() {
+    //        words.sound_on = false;
+    //        media.stop();
+    //        media.release();
+    //        words.imageStay = false;
+    //        words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
+    //        console.log('kill');
+    //    }, 3000);
+    //};
+
+    words.playCat = function(src) {
+        console.log(src);
         var url = "/android_asset/www/sound/" + src;
-        var media = $cordovaMedia.newMedia(url, function() {
-            words.imageStay = false;
-
-            console.log('played');
-        });
+        var media = $cordovaMedia.newMedia(url, null, null, null);
+        media.play();
         $timeout(function() {
-            media.play();
-        },1000);
-        //media.release();
-
-      //$timeout(function () {
-      //  words.imageStay = false;
-      //}, 5000);
-        //var media = new Media(src, null, null, mediaStatusCallback);
-        //$cordovaMedia.play(media);
-        //
-        //var mediaStatusCallback = function(status) {
-        //    if (status == Media.MEDIA_STARTING) {
-        //        $ionicLoading.show({template: "Loading"});
-        //    } else {
-        //        $ionicLoading.hide();
-        //    }
-        //};
+            media.stop();
+            media.release();
+            words.imageStay = false;
+            console.log('kill');
+        }, 3000);
     };
-
+/*
     words.addHandlers = function(arr) {
         angular.forEach(arr, function(item) {
             item.handlers = {
                 click: function () {
                     //play name music
                     words.imageStay = true;
-                    words.play(item.filename);
+                    //words.play(item.filename);
                     //jQuery(e.target).hide();
-                    words.list = angular.removeFromObjectArray(words.list, item.id);
+                    console.log(item.id);
+                    console.log(words.currentItem.list);
+                    words.currentItem.list = angular.removeFromObjectArray(arr, item.id);
                     words.imageStay = false;
                 }
-            }
-            item.weight = 10;
+            };
         });
     };
-
+*/
     $scope.$watch(function(){
-        return words.list;
+        return words.currentItem.list;
     }, function(){
-        if (words.list.length < 1){
-            words.list = words.getWordsByCategoryId(words.current);
-            words.current++;
-            words.addHandlers(words.list);
-        }
+        $timeout(function() {
+            if (words.currentItem.list.length < 1 && !words.end){
+                words.counter++;
+                words.currentItem = words.getWordsByCategoryId(words.counter);
+                words.playCat(words.currentItem.filename);
+
+                console.log('words.currentItem', words.currentItem);
+                if (angular.isUndefinedOrNull(words.currentItem)) {
+                    words.currentItem = {
+                        list: []
+                    };
+                    console.log('here');
+                    words.end = true;
+                }
+                //words.addHandlers(words.currentItem.list);
+            }
+        }, 1000);
     });
 
     words.resolve = function() {
         words.loadAllWords();
-        words.addHandlers(words.list);
+        //words.addHandlers(words.currentItem.list);
     };
     words.resolve();
 }
