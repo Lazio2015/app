@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name" : "fruits",
-        "filename": "notific.mp3",
+        "filename": "sound/notific.mp3",
         "list": [
           {
             "id": 1,
@@ -18,7 +18,7 @@
           {
             "id": 3,
             "text": "rido",
-            "filename": "sound/rido.mp3"
+            "filename": "sound/notific.mp3"
           },
           {
             "id": 4,
@@ -35,7 +35,7 @@
       {
         "id": 2,
         "name" : "vegetables",
-        "filename":  "notific.mp3",
+        "filename":  "sound/notific.mp3",
         "list": [
           {
             "id": 6,
