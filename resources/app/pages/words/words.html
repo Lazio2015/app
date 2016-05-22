@@ -11,18 +11,21 @@
                     <!--</div>-->
                 <!--</div>-->
             <!--</div>-->
-            <div class="col col-50">
+            <div class="col col-60">
                 <div class="list" ng-if="!words.end">
                     <div class="item" style="float:left; width:50%; border:0px;" ng-repeat="item in words.currentItem.list" ng-click="words.imageStay || words.sayWord(item)" ng-disabled="words.imageStay">
                         <span>{{item.text}}</span>
                     </div>
                 </div>
             </div>
-            <div class="col col-50">
-                {{words.currentItem.name}}
-                <img ng-class="{true: 'stay1', false: 'stay2'}[words.imageStay]"/>
+            <div class="col col-40 img-container">
+                <img ng-class="{true: 'speak', false: 'breath'}[words.imageStay]"/>
             </div>
-            <audio src="{{words.file}}" id="sound"></audio>
+            <div data-tap-disabled="true" >
+                <audio src="{{words.file}}" id="sound">
+                    You browser doesn't support the HTML5 audio tag!
+                </audio>
+            </div>
         </div>
     </ion-content>
 </ion-view>

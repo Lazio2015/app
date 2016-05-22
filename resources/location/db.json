@@ -2,33 +2,57 @@
   "data": [
       {
         "id": 1,
-        "name" : "fruits",
+        "name" : "Блюда",
         "filename": "sound/notific.mp3",
         "list": [
           {
             "id": 1,
-            "text": "Еда",
-            "filename": "sound/orientation.mp3"
-          },
-          {
+            "text": "Пицца",
+            "filename": "sound/1/pizza.mp3"
+          },{
             "id": 2,
-            "text": "Блюдо",
-            "filename": "sound/notific.mp3"
-          },
-          {
+            "text": "Мороженное",
+            "filename": "sound/1/morojenoe.mp3"
+          },{
             "id": 3,
-            "text": "rido",
-            "filename": "sound/notific.mp3"
-          },
-          {
+            "text": "Джем",
+            "filename": "sound/1/djem.mp3"
+          },{
             "id": 4,
-            "text": "orange4",
-            "filename": "sound/notific.mp3"
-          },
-          {
+            "text": "Салат",
+            "filename": "sound/1/salat.mp3"
+          },{
             "id": 5,
-            "text": "orange5",
-            "filename": "sound/orientation.mp3"
+            "text": "Хлеб",
+            "filename": "sound/1/hleb.mp3"
+          },{
+            "id": 6,
+            "text": "Шоколад",
+            "filename": "sound/1/shocolad.mp3"
+          },{
+            "id": 7,
+            "text": "Картофель",
+            "filename": "sound/1/kartofel.mp3"
+          },{
+            "id": 8,
+            "text": "Макароны",
+            "filename": "sound/1/makaroni.mp3"
+          },{
+            "id": 9,
+            "text": "Бульон",
+            "filename": "sound/1/bulyon.mp3"
+          },{
+            "id": 10,
+            "text": "Жаркое",
+            "filename": "sound/1/jarkoe.mp3"
+          },{
+            "id": 11,
+            "text": "Жаренная рыба",
+            "filename": "sound/1/jarenayRiba.mp3"
+          },{
+            "id": 12,
+            "text": "Плов",
+            "filename": "sound/1/plov.mp3"
           }
         ]
       },

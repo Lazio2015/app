@@ -18,7 +18,7 @@ var paths = {
   sass: ['./resources/scss/**/*.scss'],
   img: ['./resources/images/**/*.**'],
   location: ['./resources/location/*.json'],
-  sound: ['./resources/sound/*.**']
+  sound: ['./resources/sound/**/*.**']
 };
 
 var vendors = [

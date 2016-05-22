@@ -6,6 +6,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $sce) {
         list: [],
         filename: ""
     };
+    words.path = "/android_asset/www/";
     words.counter = 0;
     words.imageStay = false;
     words.disabled = false;
