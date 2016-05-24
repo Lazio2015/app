@@ -1,28 +1,65 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 670px) and (min-width: 580px){
   .list {
     .item {
       font-size: 12px;
     }
   }
+
+  .speak {
+    width:205px;
+    height:255px;
+  }
+
+  .breath {
+    width:178px;
+    height:215px;
+  }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 570px) {
   .list {
     .item {
       font-size: 11px;
     }
   }
+
+  .speak {
+    width:167px;
+  }
+
+  .breath {
+    width:167px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 680px){
+  .list {
+    .item {
+      font-size: 11px;
+    }
+  }
+
+  .speak {
+    width:220px;
+    height:270px;
+  }
+
+  .breath {
+    width:220px;
+    height:270px;
+  }
 }
 
 .app-background {
-  background: url('../img/bground.jpg') no-repeat center;
+  background: url('../img/background.png');
+  background-size: 100% 100%;
 }
 
 .speak {
-  content: url('../img/speak.gif');
+  content: url('../img/speak-300x400.gif');
 }
 
 .breath {
-  content: url('../img/breath.gif');
+  content: url('../img/breath-300x400.gif');
 }
 
 #cloud-dynamic { width: 80%; height: 400px; }
@@ -98,9 +135,12 @@
   -o-transform: rotate(-90deg);
 }
 
-.img-container {
-  img {
-    width:100%;
-    height:100%;
-  }
+.container {
+  height:90vh;
+}
+
+.dog {
+    position: absolute;
+    right:0;
+    bottom:0;
 }

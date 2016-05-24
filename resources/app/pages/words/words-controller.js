@@ -71,6 +71,8 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $sce) {
                     };
                     console.log('here');
                     words.end = true;
+                    document.getElementById("sound");
+
                 }
                 //words.addHandlers(words.currentItem.list);
             }
