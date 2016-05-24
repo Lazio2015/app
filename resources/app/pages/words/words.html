@@ -14,7 +14,8 @@
                 <!--</div>-->
                 <div class="col col-50 col-offset-20">
                     <div class="list" ng-if="!words.end" >
-                        <ion-checkbox style="background:none;float:left; width:50%; border:0px;"
+                        <ion-checkbox style="background:none;float:left; width:50%; border:0px;
+                        color:red; font-weight: 700"
                                       ng-repeat="item in words.currentItem.list" ng-click="words.imageStay || words.sayWord(item)" ng-disabled="words.imageStay">{{item.text}}
                         </ion-checkbox>
                     </div>
