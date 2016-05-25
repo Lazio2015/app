@@ -1,5 +1,6 @@
 <ion-view class="app-background">
     <ion-content>
+        <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <!--<div class="col col-50">-->
@@ -12,26 +13,28 @@
                 <!--</div>-->
                 <!--</div>-->
                 <!--</div>-->
-                <div class="col col-50 col-offset-20">
-                    <div class="list" ng-if="!words.end" >
-                        <ion-checkbox style="background:none;float:left; width:50%; border:0px;
-                        color:red; font-weight: 700"
-                                      ng-repeat="item in words.currentItem.list" ng-click="words.imageStay || words.sayWord(item)" ng-disabled="words.imageStay">{{item.text}}
-                        </ion-checkbox>
-                    </div>
-                    <!--<div style="background-image: url('../img/blackboard2.png')">-->
+                <!--<div class="col col-40 col-offset-25">-->
+                    <!--<div style="background-image: url('../img/blackboard44.jpg'); background-size: 100% 100%; overflow: hidden;">-->
                         <!--<div class="list" ng-if="!words.end" >-->
-                            <!--<div class="item"-->
-                                     <!--style="background:none; float:left; width:50%; border:0px; font-family: sans-serif;"-->
-                                     <!--ng-repeat="item in words.currentItem.list"-->
-                                     <!--ng-click="words.imageStay || words.sayWord(item)"-->
-                                     <!--ng-disabled="words.imageStay">-->
+                            <!--<div class="item"d-->
+                                 <!--style="background:none; float:left; width:50%; border:0px; font-family: sans-serif;"-->
+                                 <!--ng-repeat="item in words.currentItem.list"-->
+                                 <!--ng-click="words.imageStay || words.sayWord(item)"-->
+                                 <!--ng-disabled="words.imageStay">-->
                                 <!--<span>{{item.text}}</span>-->
                             <!--</div>-->
                         <!--</div>-->
                         <!--<div class="clearfix"></div>-->
                     <!--</div>-->
+                <!--</div>-->
 
+                <div class="col col-50 col-offset-20" ng-show="words.showWords">
+                    <h3 class="title">{{words.currentItem.name}}</h3>
+                    <div class="list" ng-if="!words.end">
+                        <ion-checkbox class="word"
+                                      ng-repeat="item in words.currentItem.list" ng-click="words.sayWord(item)" ng-disabled="words.imageStay == 1">{{item.text}}
+                        </ion-checkbox>
+                    </div>
                 </div>
                 <div data-tap-disabled="true" >
                     <audio src="{{words.file}}" id="sound">
@@ -40,7 +43,7 @@
                 </div>
             </div>
             <div class="dog">
-                <img ng-class="{true: 'speak', false: 'breath'}[words.imageStay]"/>
+                <img ng-class="{1: 'speak', 0: 'breath', 2: 'dance'}[words.imageStay]"/>
             </div>
         </div>
     </ion-content>

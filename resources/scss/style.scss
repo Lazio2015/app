@@ -4,27 +4,29 @@
       font-size: 11px;
     }
   }
-
   .speak {
     width:178px;
   }
-
   .breath {
+    width:178px;
+  }
+  .dance {
     width:178px;
   }
 }
 @media screen and (max-width: 570px) {
   .list {
     .item {
-      font-size: 11px;
+      font-size: 10px;
     }
   }
-
   .speak {
     width:167px;
   }
-
   .breath {
+    width:167px;
+  }
+  .dance {
     width:167px;
   }
 }
@@ -39,8 +41,10 @@
   .speak {
     width:220px;
   }
-
   .breath {
+    width:220px;
+  }
+  .dance {
     width:220px;
   }
 }
@@ -56,6 +60,10 @@
 
 .breath {
   content: url('../img/breath-300x400.gif');
+}
+
+.dance {
+  content: url('../img/hi.gif');
 }
 
 #cloud-dynamic { width: 80%; height: 400px; }
@@ -139,4 +147,17 @@
     position: absolute;
     right:0;
     bottom:0;
+}
+
+.word {
+  background:none;float:left; width:50%; border:0px;
+  color:#3719CF; font-weight: 900
+}
+
+.overlay {
+  height: 100vh;
+  min-width: 100%;
+  background: #8E6A6A;
+  opacity: 0.5;
+  position: fixed;
 }
