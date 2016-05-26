@@ -2,8 +2,8 @@
   "data": [
       {
         "id": 1,
-        "name" : "Блюда",
-        "filename": "sound/notific.mp3",
+        "name" : "Блюда, еда",
+        "filename": "sound/1/1p_bludo_eda.mp3",
         "list": [
           {
             "id": 1,
@@ -12,11 +12,11 @@
           },{
             "id": 2,
             "text": "Мороженное",
-            "filename": "sound/1/morojenoe.mp3"
+            "filename": "sound/1/morojennoye.mp3"
           },{
             "id": 3,
             "text": "Джем",
-            "filename": "sound/1/djem.mp3"
+            "filename": "sound/1/jem.mp3"
           },{
             "id": 4,
             "text": "Салат",
@@ -28,7 +28,7 @@
           },{
             "id": 6,
             "text": "Шоколад",
-            "filename": "sound/1/shocolad.mp3"
+            "filename": "sound/1/shokolad.mp3"
           },{
             "id": 7,
             "text": "Картофель",
@@ -36,7 +36,7 @@
           },{
             "id": 8,
             "text": "Макароны",
-            "filename": "sound/1/makaroni.mp3"
+            "filename": "sound/1/makarony.mp3"
           },{
             "id": 9,
             "text": "Бульон",
@@ -44,69 +44,73 @@
           },{
             "id": 10,
             "text": "Жаркое",
-            "filename": "sound/1/jarkoe.mp3"
+            "filename": "sound/1/jarkoye.mp3"
           },{
             "id": 11,
             "text": "Жаренная рыба",
-            "filename": "sound/1/jarenayRiba.mp3"
+            "filename": "sound/1/jarenaya_riba.mp3"
           },{
             "id": 12,
             "text": "Плов",
             "filename": "sound/1/plov.mp3"
           }
         ]
-      },
-      {
+      },{
         "id": 2,
-        "name" : "vegetables",
-        "filename":  "sound/notific.mp3",
+        "name" : "Бытовые принадлежности",
+        "filename": "sound/2/2p_bitov_prenadlejnosti.mp3",
         "list": [
           {
+            "id": 1,
+            "text": "Утюг",
+            "filename": "sound/2/utug.mp3"
+          },{
+            "id": 2,
+            "text": "Зонт",
+            "filename": "sound/2/zont.mp3"
+          },{
+            "id": 3,
+            "text": "Холодильник",
+            "filename": "sound/2/holodolnik.mp3"
+          },{
+            "id": 4,
+            "text": "Стиральная машина",
+            "filename": "sound/2/stiralnaya_mashina.mp3"
+          },{
+            "id": 5,
+            "text": "Печь",
+            "filename": "sound/2/pech.mp3"
+          },{
             "id": 6,
-            "text": "tomatoes"
-          },
-          {
+            "text": "Пылесос",
+            "filename": "sound/2/pilesos.mp3"
+          },{
             "id": 7,
-            "text": "tomatoes2"
-          },
-          {
+            "text": "Вентилятор",
+            "filename": "sound/2/ventilyator.mp3"
+          },{
             "id": 8,
-            "text": "tomatoes"
+            "text": "Расчестка",
+            "filename": "sound/2/rascheska.mp3"
+          },{
+            "id": 9,
+            "text": "Спички",
+            "filename": "sound/2/spichki.mp3"
+          },{
+            "id": 10,
+            "text": "Сумка",
+            "filename": "sound/2/sumka.mp3"
+          },{
+            "id": 11,
+            "text": "Ключ",
+            "filename": "sound/2/kluch.mp3"
+          },{
+            "id": 12,
+            "text": "Термос",
+            "filename": "sound/2/termos.mp3"
           }
         ]
-      },
-    {
-          "id": 1,
-          "name" : "fruits",
-          "filename": "notific.mp3",
-          "list": [
-            {
-              "id": 1,
-              "text": "Едfdgdfgdgfdа",
-              "filename": "notific.mp3"
-            },
-            {
-              "id": 2,
-              "text": "Блюдdfgdfgdо",
-              "filename": "notific.mp3"
-            },
-            {
-              "id": 3,
-              "text": "fdgdfgdgfdg",
-              "filename": "notific.mp3"
-            },
-            {
-              "id": 4,
-              "text": "dfgdfgdfg",
-              "filename": "orientation.mp3"
-            },
-            {
-              "id": 5,
-              "text": "dfgdg",
-              "filename": "orientation.mp3"
-            }
-          ]
-    }
+      }
     ],
   "status" : "200"
 }

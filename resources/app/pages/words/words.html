@@ -32,15 +32,16 @@
                     <h3 class="title">{{words.currentItem.name}}</h3>
                     <div class="list" ng-if="!words.end">
                         <ion-checkbox class="word"
-                                      ng-repeat="item in words.currentItem.list" ng-click="words.sayWord(item)" ng-disabled="words.imageStay == 1">{{item.text}}
+                                      ng-repeat="item in words.currentItem.list" ng-click="words.sayWord(item)">{{item.text}}
                         </ion-checkbox>
                     </div>
                 </div>
-                <div data-tap-disabled="true" >
                     <audio src="{{words.file}}" id="sound">
                         You browser doesn't support the HTML5 audio tag!
                     </audio>
-                </div>
+                    <!--<audio src="{{words.fileCat}}" id="soundCat">-->
+                        <!--You browser doesn't support the HTML5 audio tag!-->
+                    <!--</audio>-->
             </div>
             <div class="dog">
                 <img ng-class="{1: 'speak', 0: 'breath', 2: 'dance'}[words.imageStay]"/>

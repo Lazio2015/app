@@ -1,4 +1,4 @@
-function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $sce) {
+function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory) {
     var words = this;
     words.title = 'Words Ctrl';
     words.allItems = [];
@@ -32,7 +32,9 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $sce) {
         words.counter = 0;
         words.currentItem = words.getWordsByCategoryId(words.counter);
         console.log('words.currentItem', words.currentItem);
-        words.sayCategory(words.currentItem.filename);
+        $timeout(function() {
+            words.sayCategory(words.currentItem.filename);
+        }, 2000);
     };
 
     words.getWordsByCategoryId = function (i){
@@ -43,29 +45,56 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $sce) {
         words.imageStay = 1;
         words.file = item.filename;
         words.sound = document.getElementById("sound");
-        setTimeout(function () {
+        var listener = function() {
+            //console.log(words.sound.duration);
             words.sound.play();
             $timeout(function() {
                 words.imageStay = 0;
-                //words.sound.pause();
                 words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
                 console.log('kill');
+                words.sound.removeEventListener('loadedmetadata', listener);
             }, 1000*words.sound.duration);
-        }, 150);
+        };
+        words.sound.addEventListener('loadedmetadata', listener);
+
+        //setTimeout(function () {
+        //    words.sound.play();
+        //    $timeout(function() {
+        //        $timeout(function() {
+        //            words.imageStay = 0;
+        //            //words.sound.pause();
+        //            words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
+        //            console.log('kill');
+        //        }, 1000*words.sound.duration);
+        //    },300);
+        //}, 150);
     };
 
     words.sayCategory = function(filename) {
         words.imageStay = 1;
         words.file = filename;
         words.sound = document.getElementById("sound");
-        setTimeout(function () {
+        var listener = function() {
+            //console.log(words.sound.duration);
             words.sound.play();
             $timeout(function() {
                 words.showWords = true;
                 words.imageStay = 0;
                 console.log('killCat');
+                words.sound.removeEventListener('loadedmetadata', listener);
             }, 1000*words.sound.duration);
-        }, 150);
+        };
+        words.sound.addEventListener('loadedmetadata', listener);
+        //setTimeout(function () {
+        //    words.sound.play();
+        //    $timeout(function() {
+        //        $timeout(function() {
+        //            words.showWords = true;
+        //            words.imageStay = 0;
+        //            console.log('killCat');
+        //        }, 1000*words.sound.duration);
+        //    },500);
+        //}, 150);
     };
 
     $scope.$watch(function(){
@@ -85,9 +114,12 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $sce) {
                     words.imageStay = 2;
                     $timeout(function() {
                         if (confirm('Повторить!?')) {
-                            words.init();
+                            words.loadAllWords();
+                            words.end = false;
                         } else {
-
+                            //$ionicHistory.goBack();
+                            ionic.Platform.exitApp();
+                            console.log('no');
                         }
                     }, 2000);
 
