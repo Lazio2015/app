@@ -110,6 +110,721 @@
             "filename": "sound/2/termos.mp3"
           }
         ]
+      },{
+        "id": 3,
+        "name" : "Ванная комната",
+        "filename": "sound/3/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Раковина",
+            "filename": "sound/3/rakovina.mp3"
+          },{
+            "id": 2,
+            "text": "Полотенце",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 3,
+            "text": "Зубная паста",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 4,
+            "text": "Зубная щетка",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 5,
+            "text": "Мыло",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 6,
+            "text": "Шампунь",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 7,
+            "text": "Коврик",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 8,
+            "text": "Ванна",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 9,
+            "text": "Мочалка",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 10,
+            "text": "Мыльница",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 11,
+            "text": "Таз",
+            "filename": "sound/3/.mp3"
+          },{
+            "id": 12,
+            "text": "Губка",
+            "filename": "sound/3/.mp3"
+          }
+        ]
+      },{
+        "id": 4,
+        "name" : "Географические объекты",
+        "filename": "sound/4/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Гора",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 2,
+            "text": "Водохранилище",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 3,
+            "text": "Озеро",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 4,
+            "text": "Долина",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 5,
+            "text": "Холм",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 6,
+            "text": "Лес",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 7,
+            "text": "Река",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 8,
+            "text": "Море",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 9,
+            "text": "Океан",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 10,
+            "text": "Остров",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 11,
+            "text": "Ледник",
+            "filename": "sound/4/.mp3"
+          },{
+            "id": 12,
+            "text": "Пустыня",
+            "filename": "sound/4/.mp3"
+          }
+        ]
+      },{
+        "id": 5,
+        "name" : "Деревья",
+        "filename": "sound/5/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Дуб",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 2,
+            "text": "Берёза",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 3,
+            "text": "Ель",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 4,
+            "text": "Тополь",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 5,
+            "text": "Кипарис",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 6,
+            "text": "Акация",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 7,
+            "text": "Бук",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 8,
+            "text": "Ива",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 9,
+            "text": "Кедр",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 10,
+            "text": "Вяз",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 11,
+            "text": "Клен",
+            "filename": "sound/5/.mp3"
+          },{
+            "id": 12,
+            "text": "Пальма",
+            "filename": "sound/5/.mp3"
+          }
+        ]
+      },{
+        "id": 6,
+        "name" : "Дом",
+        "filename": "sound/6/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Крыша",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 2,
+            "text": "Лестница",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 3,
+            "text": "Окно",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 4,
+            "text": "Балкон",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 5,
+            "text": "Этаж",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 6,
+            "text": "Подвал",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 7,
+            "text": "Крыльцо",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 8,
+            "text": "Дверь",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 9,
+            "text": "Гараж",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 10,
+            "text": "Мусоропровод",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 11,
+            "text": "Лифт",
+            "filename": "sound/6/.mp3"
+          },{
+            "id": 12,
+            "text": "Квартира",
+            "filename": "sound/6/.mp3"
+          }
+        ]
+      },{
+        "id": 7,
+        "name" : "Лицо",
+        "filename": "sound/7/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Бровь",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 2,
+            "text": "Ресница",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 3,
+            "text": "Глаз",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 4,
+            "text": "Рот",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 5,
+            "text": "Зуб",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 6,
+            "text": "Подбородок",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 7,
+            "text": "Нос",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 8,
+            "text": "Лоб",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 9,
+            "text": "Ноздря",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 10,
+            "text": "Ухо",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 11,
+            "text": "Губа",
+            "filename": "sound/7/.mp3"
+          },{
+            "id": 12,
+            "text": "Усы",
+            "filename": "sound/7/.mp3"
+          }
+        ]
+      },{
+        "id": 8,
+        "name" : "Животные ",
+        "filename": "sound/8/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Олень",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 2,
+            "text": "Лошадь",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 3,
+            "text": "Лев",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 4,
+            "text": "Корова",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 5,
+            "text": "Медведь",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 6,
+            "text": "Верблюд",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 7,
+            "text": "Курица",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 8,
+            "text": "Тигр",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 9,
+            "text": "Жираф",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 10,
+            "text": "Осел",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 11,
+            "text": "Свинья",
+            "filename": "sound/8/.mp3"
+          },{
+            "id": 12,
+            "text": "Змея",
+            "filename": "sound/8/.mp3"
+          }
+        ]
+      },{
+        "id": 9,
+        "name" : "Птицы",
+        "filename": "sound/9/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Гусь",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 2,
+            "text": "Попугай",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 3,
+            "text": "Кот",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 4,
+            "text": "Петух",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 5,
+            "text": "Орел",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 6,
+            "text": "Утка",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 7,
+            "text": "Индейка",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 8,
+            "text": "Цапля",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 9,
+            "text": "Чайка",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 10,
+            "text": "Ворон",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 11,
+            "text": "Сова",
+            "filename": "sound/9/.mp3"
+          },{
+            "id": 12,
+            "text": "Жаворонок",
+            "filename": "sound/9/.mp3"
+          }
+        ]
+      },{
+        "id": 10,
+        "name" : "Насекомые",
+        "filename": "sound/10/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Цикада",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 2,
+            "text": "Сороконожка",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 3,
+            "text": "Бабочка",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 4,
+            "text": "Жук",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 5,
+            "text": "Кузнечик",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 6,
+            "text": "Пчела",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 7,
+            "text": "Гусеница",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 8,
+            "text": "Комар",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 9,
+            "text": "Паук",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 10,
+            "text": "Таракан",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 11,
+            "text": "Муравей",
+            "filename": "sound/10/.mp3"
+          },{
+            "id": 12,
+            "text": "Стрекоза",
+            "filename": "sound/10/.mp3"
+          }
+        ]
+      },{
+        "id": 11,
+        "name" : "Инструменты",
+        "filename": "sound/11/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Дрель",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 2,
+            "text": "Инструмент",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 3,
+            "text": "Плоскогубцы",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 4,
+            "text": "Пила",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 5,
+            "text": "Гвоздь",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 6,
+            "text": "Рулетка",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 7,
+            "text": "Топор",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 8,
+            "text": "Молоток",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 9,
+            "text": "Рубанок",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 10,
+            "text": "Болт",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 11,
+            "text": "Гайка",
+            "filename": "sound/11/.mp3"
+          },{
+            "id": 12,
+            "text": "Кувалда",
+            "filename": "sound/11/.mp3"
+          }
+        ]
+      },{
+        "id": 12,
+        "name" : "Канцелярские товары",
+        "filename": "sound/12/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Ручка",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 2,
+            "text": "Линейка",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 3,
+            "text": "Ножницы",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 4,
+            "text": "Печать",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 5,
+            "text": "Краски",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 6,
+            "text": "Записная книжка",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 7,
+            "text": "Словарь",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 8,
+            "text": "Пишущая машинка",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 9,
+            "text": "Бумага",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 10,
+            "text": "Ластик",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 11,
+            "text": "Учебник",
+            "filename": "sound/12/.mp3"
+          },{
+            "id": 12,
+            "text": "Карандаш",
+            "filename": "sound/12/.mp3"
+          }
+        ]
+      },{
+        "id": 13,
+        "name" : "Культура, исскуство, литература",
+        "filename": "sound/13/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Отдел культуры",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 2,
+            "text": "Постановщик",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 3,
+            "text": "Сцена",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 4,
+            "text": "Занавес",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 5,
+            "text": "Художник",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 6,
+            "text": "Библиотека",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 7,
+            "text": "Библиотекарь",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 8,
+            "text": "Читальный зал",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 9,
+            "text": "Читатель",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 10,
+            "text": "Писатель(ница)",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 11,
+            "text": "Поэт(есса)",
+            "filename": "sound/13/.mp3"
+          },{
+            "id": 12,
+            "text": "Поэзия",
+            "filename": "sound/13/.mp3"
+          }
+        ]
+      },{
+        "id": 14,
+        "name" : "Мебель",
+        "filename": "sound/14/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Шкаф",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 2,
+            "text": "Стол",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 3,
+            "text": "Кресло",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 4,
+            "text": "Лампа",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 5,
+            "text": "Диван",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 6,
+            "text": "Стул",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 7,
+            "text": "Окно",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 8,
+            "text": "Доска",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 9,
+            "text": "Дверь",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 10,
+            "text": "Двухэтажная кровать",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 11,
+            "text": "Книжный шкаф",
+            "filename": "sound/14/.mp3"
+          },{
+            "id": 12,
+            "text": "Буфет",
+            "filename": "sound/14/.mp3"
+          }
+        ]
+      },{
+        "id": 15,
+        "name" : "Овощи",
+        "filename": "sound/15/.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Кукуруза",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 2,
+            "text": "Капуста",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 3,
+            "text": "Картофель",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 4,
+            "text": "Томат",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 5,
+            "text": "Боб",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 6,
+            "text": "Морковь",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 7,
+            "text": "Баклажан",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 8,
+            "text": "Кабачок",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 9,
+            "text": "Огурец",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 10,
+            "text": "Чеснок",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 11,
+            "text": "Лук",
+            "filename": "sound/15/.mp3"
+          },{
+            "id": 12,
+            "text": "Рис",
+            "filename": "sound/15/.mp3"
+          }
+        ]
       }
     ],
   "status" : "200"
