@@ -113,15 +113,16 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
                     words.end = true;
                     words.imageStay = 2;
                     $timeout(function() {
-                        if (confirm('Повторить!?')) {
-                            words.loadAllWords();
-                            words.end = false;
-                        } else {
-                            //$ionicHistory.goBack();
-                            ionic.Platform.exitApp();
-                            console.log('no');
-                        }
-                    }, 2000);
+                        words.loadAllWords();
+                        //if (confirm('Повторить!?')) {
+                        //    words.loadAllWords();
+                        //    words.end = false;
+                        //} else {
+                        //    //$ionicHistory.goBack();
+                        //    ionic.Platform.exitApp();
+                        //    console.log('no');
+                        //}
+                    }, 3000);
 
                     //document.getElementById("sound");
 
