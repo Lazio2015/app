@@ -113,7 +113,7 @@
       },{
         "id": 3,
         "name" : "Ванная комната",
-        "filename": "sound/3/.mp3",
+        "filename": "sound/3/p3_vannaya_komnata.mp3",
         "list": [
           {
             "id": 1,
@@ -122,707 +122,707 @@
           },{
             "id": 2,
             "text": "Полотенце",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/polotentse.mp3"
           },{
             "id": 3,
             "text": "Зубная паста",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/zubnaya_pasta.mp3"
           },{
             "id": 4,
             "text": "Зубная щетка",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/zubnaya_chetka.mp3"
           },{
             "id": 5,
             "text": "Мыло",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/milo.mp3"
           },{
             "id": 6,
             "text": "Шампунь",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/shampun.mp3"
           },{
             "id": 7,
             "text": "Коврик",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/kovrik.mp3"
           },{
             "id": 8,
             "text": "Ванна",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/vannaya.mp3"
           },{
             "id": 9,
             "text": "Мочалка",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/mochalka.mp3"
           },{
             "id": 10,
             "text": "Мыльница",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/milnitsa.mp3"
           },{
             "id": 11,
             "text": "Таз",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/taz.mp3"
           },{
             "id": 12,
             "text": "Губка",
-            "filename": "sound/3/.mp3"
+            "filename": "sound/3/gubka.mp3"
           }
         ]
       },{
         "id": 4,
         "name" : "Географические объекты",
-        "filename": "sound/4/.mp3",
+        "filename": "sound/4/p4_georfaf.mp3",
         "list": [
           {
             "id": 1,
             "text": "Гора",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/gora.mp3"
           },{
             "id": 2,
             "text": "Водохранилище",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/vodohranilishe.mp3"
           },{
             "id": 3,
             "text": "Озеро",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/ozero.mp3"
           },{
             "id": 4,
             "text": "Долина",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/dolina.mp3"
           },{
             "id": 5,
             "text": "Холм",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/holm.mp3"
           },{
             "id": 6,
             "text": "Лес",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/les.mp3"
           },{
             "id": 7,
             "text": "Река",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/reka.mp3"
           },{
             "id": 8,
             "text": "Море",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/more.mp3"
           },{
             "id": 9,
             "text": "Океан",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/okean.mp3"
           },{
             "id": 10,
             "text": "Остров",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/ostrov.mp3"
           },{
             "id": 11,
             "text": "Ледник",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/lednik.mp3"
           },{
             "id": 12,
             "text": "Пустыня",
-            "filename": "sound/4/.mp3"
+            "filename": "sound/4/pustinya.mp3"
           }
         ]
       },{
         "id": 5,
         "name" : "Деревья",
-        "filename": "sound/5/.mp3",
+        "filename": "sound/5/p5_derevya.mp3",
         "list": [
           {
             "id": 1,
             "text": "Дуб",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/dub.mp3"
           },{
             "id": 2,
             "text": "Берёза",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/beryoza.mp3"
           },{
             "id": 3,
             "text": "Ель",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/el.mp3"
           },{
             "id": 4,
             "text": "Тополь",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/topol.mp3"
           },{
             "id": 5,
             "text": "Кипарис",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/kiparis.mp3"
           },{
             "id": 6,
             "text": "Акация",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/akatsia.mp3"
           },{
             "id": 7,
             "text": "Бук",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/buk.mp3"
           },{
             "id": 8,
             "text": "Ива",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/iva.mp3"
           },{
             "id": 9,
             "text": "Кедр",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/kedr.mp3"
           },{
             "id": 10,
             "text": "Вяз",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/vyaz.mp3"
           },{
             "id": 11,
             "text": "Клен",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/klen.mp3"
           },{
             "id": 12,
             "text": "Пальма",
-            "filename": "sound/5/.mp3"
+            "filename": "sound/5/palma.mp3"
           }
         ]
       },{
         "id": 6,
         "name" : "Дом",
-        "filename": "sound/6/.mp3",
+        "filename": "sound/6/p6_dom.mp3",
         "list": [
           {
             "id": 1,
             "text": "Крыша",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/krisha.mp3"
           },{
             "id": 2,
             "text": "Лестница",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/lestnitsa.mp3"
           },{
             "id": 3,
             "text": "Окно",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/okno.mp3"
           },{
             "id": 4,
             "text": "Балкон",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/balkon.mp3"
           },{
             "id": 5,
             "text": "Этаж",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/etaj.mp3"
           },{
             "id": 6,
             "text": "Подвал",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/podval.mp3"
           },{
             "id": 7,
             "text": "Крыльцо",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/kriltso.mp3"
           },{
             "id": 8,
             "text": "Дверь",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/dver.mp3"
           },{
             "id": 9,
             "text": "Гараж",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/garaj.mp3"
           },{
             "id": 10,
             "text": "Мусоропровод",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/musoroprovod.mp3"
           },{
             "id": 11,
             "text": "Лифт",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/lift.mp3"
           },{
             "id": 12,
             "text": "Квартира",
-            "filename": "sound/6/.mp3"
+            "filename": "sound/6/kvartira.mp3"
           }
         ]
       },{
         "id": 7,
         "name" : "Лицо",
-        "filename": "sound/7/.mp3",
+        "filename": "sound/7/p7_litso.mp3",
         "list": [
           {
             "id": 1,
             "text": "Бровь",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/brov.mp3"
           },{
             "id": 2,
             "text": "Ресница",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/resnitsa.mp3"
           },{
             "id": 3,
             "text": "Глаз",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/glaz.mp3"
           },{
             "id": 4,
             "text": "Рот",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/rot.mp3"
           },{
             "id": 5,
             "text": "Зуб",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/zub.mp3"
           },{
             "id": 6,
             "text": "Подбородок",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/podborodok.mp3"
           },{
             "id": 7,
             "text": "Нос",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/nos.mp3"
           },{
             "id": 8,
             "text": "Лоб",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/lob.mp3"
           },{
             "id": 9,
             "text": "Ноздря",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/nozdrya.mp3"
           },{
             "id": 10,
             "text": "Ухо",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/uho.mp3"
           },{
             "id": 11,
             "text": "Губа",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/guba.mp3"
           },{
             "id": 12,
             "text": "Усы",
-            "filename": "sound/7/.mp3"
+            "filename": "sound/7/usi.mp3"
           }
         ]
       },{
         "id": 8,
         "name" : "Животные ",
-        "filename": "sound/8/.mp3",
+        "filename": "sound/8/p8_jivotniye.mp3",
         "list": [
           {
             "id": 1,
             "text": "Олень",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/olen.mp3"
           },{
             "id": 2,
             "text": "Лошадь",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/loshad.mp3"
           },{
             "id": 3,
             "text": "Лев",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/lev.mp3"
           },{
             "id": 4,
             "text": "Корова",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/korova.mp3"
           },{
             "id": 5,
             "text": "Медведь",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/medved.mp3"
           },{
             "id": 6,
             "text": "Верблюд",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/verblud.mp3"
           },{
             "id": 7,
             "text": "Курица",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/kuritsa.mp3"
           },{
             "id": 8,
             "text": "Тигр",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/tigr.mp3"
           },{
             "id": 9,
             "text": "Жираф",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/jiraf.mp3"
           },{
             "id": 10,
             "text": "Осел",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/osel.mp3"
           },{
             "id": 11,
             "text": "Свинья",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/svinya.mp3"
           },{
             "id": 12,
             "text": "Змея",
-            "filename": "sound/8/.mp3"
+            "filename": "sound/8/zmeya.mp3"
           }
         ]
       },{
         "id": 9,
         "name" : "Птицы",
-        "filename": "sound/9/.mp3",
+        "filename": "sound/9/p9_ptitsi.mp3",
         "list": [
           {
             "id": 1,
             "text": "Гусь",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/gus.mp3"
           },{
             "id": 2,
             "text": "Попугай",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/popugay.mp3"
           },{
             "id": 3,
             "text": "Кот",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/kot.mp3"
           },{
             "id": 4,
             "text": "Петух",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/petuh.mp3"
           },{
             "id": 5,
             "text": "Орел",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/orel.mp3"
           },{
             "id": 6,
             "text": "Утка",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/utka.mp3"
           },{
             "id": 7,
             "text": "Индейка",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/indeyka.mp3"
           },{
             "id": 8,
             "text": "Цапля",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/tsaplya.mp3"
           },{
             "id": 9,
             "text": "Чайка",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/thayka.mp3"
           },{
             "id": 10,
             "text": "Ворон",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/voron.mp3"
           },{
             "id": 11,
             "text": "Сова",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/sova.mp3"
           },{
             "id": 12,
             "text": "Жаворонок",
-            "filename": "sound/9/.mp3"
+            "filename": "sound/9/javoronok.mp3"
           }
         ]
       },{
         "id": 10,
         "name" : "Насекомые",
-        "filename": "sound/10/.mp3",
+        "filename": "sound/10/p10_nasekomiye.mp3",
         "list": [
           {
             "id": 1,
             "text": "Цикада",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/aaaaaaaaa.mp3"
           },{
             "id": 2,
             "text": "Сороконожка",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/sorokonojka.mp3"
           },{
             "id": 3,
             "text": "Бабочка",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/babochka.mp3"
           },{
             "id": 4,
             "text": "Жук",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/juk.mp3"
           },{
             "id": 5,
             "text": "Кузнечик",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/kuznechik.mp3"
           },{
             "id": 6,
             "text": "Пчела",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/pchela.mp3"
           },{
             "id": 7,
             "text": "Гусеница",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/gusenitsa.mp3"
           },{
             "id": 8,
             "text": "Комар",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/komar.mp3"
           },{
             "id": 9,
             "text": "Паук",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/pauk.mp3"
           },{
             "id": 10,
             "text": "Таракан",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/tarakan.mp3"
           },{
             "id": 11,
             "text": "Муравей",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/muravey.mp3"
           },{
             "id": 12,
             "text": "Стрекоза",
-            "filename": "sound/10/.mp3"
+            "filename": "sound/10/strekoza.mp3"
           }
         ]
       },{
         "id": 11,
         "name" : "Инструменты",
-        "filename": "sound/11/.mp3",
+        "filename": "sound/11/p11_instrumenty.mp3",
         "list": [
           {
             "id": 1,
             "text": "Дрель",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/drel.mp3"
           },{
             "id": 2,
             "text": "Инструмент",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/instrument.mp3"
           },{
             "id": 3,
             "text": "Плоскогубцы",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/ploskogubtsi.mp3"
           },{
             "id": 4,
             "text": "Пила",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/pila.mp3"
           },{
             "id": 5,
             "text": "Гвоздь",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/gvozd.mp3"
           },{
             "id": 6,
             "text": "Рулетка",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/ruletka.mp3"
           },{
             "id": 7,
             "text": "Топор",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/topor.mp3"
           },{
             "id": 8,
             "text": "Молоток",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/molotok.mp3"
           },{
             "id": 9,
             "text": "Рубанок",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/rubanok.mp3"
           },{
             "id": 10,
             "text": "Болт",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/bolt.mp3"
           },{
             "id": 11,
             "text": "Гайка",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/gayka.mp3"
           },{
             "id": 12,
             "text": "Кувалда",
-            "filename": "sound/11/.mp3"
+            "filename": "sound/11/kuvalda.mp3"
           }
         ]
       },{
         "id": 12,
         "name" : "Канцелярские товары",
-        "filename": "sound/12/.mp3",
+        "filename": "sound/12/p12_kantselyariya.mp3",
         "list": [
           {
             "id": 1,
             "text": "Ручка",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/ruthka.mp3"
           },{
             "id": 2,
             "text": "Линейка",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/lineyka.mp3"
           },{
             "id": 3,
             "text": "Ножницы",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/nojnitsi.mp3"
           },{
             "id": 4,
             "text": "Печать",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/pechat.mp3"
           },{
             "id": 5,
             "text": "Краски",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/kraski.mp3"
           },{
             "id": 6,
             "text": "Записная книжка",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/zapesn_knijka.mp3"
           },{
             "id": 7,
             "text": "Словарь",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/slovar.mp3"
           },{
             "id": 8,
             "text": "Пишущая машинка",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/pishush_mahinka.mp3"
           },{
             "id": 9,
             "text": "Бумага",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/bumaga.mp3"
           },{
             "id": 10,
             "text": "Ластик",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/lastikkkkkkkkkkkkkkkkkkkkk.mp3"
           },{
             "id": 11,
             "text": "Учебник",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/utcebnik.mp3"
           },{
             "id": 12,
             "text": "Карандаш",
-            "filename": "sound/12/.mp3"
+            "filename": "sound/12/karandash.mp3"
           }
         ]
       },{
         "id": 13,
         "name" : "Культура, исскуство, литература",
-        "filename": "sound/13/.mp3",
+        "filename": "sound/13/p13_kultura.mp3",
         "list": [
           {
             "id": 1,
             "text": "Отдел культуры",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/otdel_kultury.mp3"
           },{
             "id": 2,
             "text": "Постановщик",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/postanovshik.mp3"
           },{
             "id": 3,
             "text": "Сцена",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/stsena.mp3"
           },{
             "id": 4,
             "text": "Занавес",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/zanoves.mp3"
           },{
             "id": 5,
             "text": "Художник",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/hudojnik.mp3"
           },{
             "id": 6,
             "text": "Библиотека",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/biblioteka.mp3"
           },{
             "id": 7,
             "text": "Библиотекарь",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/bibliotekar.mp3"
           },{
             "id": 8,
-            "text": "Читальный зал",
-            "filename": "sound/13/.mp3"
+            "text": "Читательный зал",
+            "filename": "sound/13/chitat_zal.mp3"
           },{
             "id": 9,
             "text": "Читатель",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/chitatel.mp3"
           },{
             "id": 10,
-            "text": "Писатель(ница)",
-            "filename": "sound/13/.mp3"
+            "text": "Писатель",
+            "filename": "sound/13/pisatel.mp3"
           },{
             "id": 11,
-            "text": "Поэт(есса)",
-            "filename": "sound/13/.mp3"
+            "text": "Поэт",
+            "filename": "sound/13/poet.mp3"
           },{
             "id": 12,
             "text": "Поэзия",
-            "filename": "sound/13/.mp3"
+            "filename": "sound/13/poeziya.mp3"
           }
         ]
       },{
         "id": 14,
         "name" : "Мебель",
-        "filename": "sound/14/.mp3",
+        "filename": "sound/14/p14_mebel.mp3",
         "list": [
           {
             "id": 1,
             "text": "Шкаф",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/shkaf.mp3"
           },{
             "id": 2,
             "text": "Стол",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/stol.mp3"
           },{
             "id": 3,
             "text": "Кресло",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/kreslo.mp3"
           },{
             "id": 4,
             "text": "Лампа",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/lampa.mp3"
           },{
             "id": 5,
             "text": "Диван",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/divan.mp3"
           },{
             "id": 6,
             "text": "Стул",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/stul.mp3"
           },{
             "id": 7,
             "text": "Окно",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/okno.mp3"
           },{
             "id": 8,
             "text": "Доска",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/doska.mp3"
           },{
             "id": 9,
             "text": "Дверь",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/dver.mp3"
           },{
             "id": 10,
             "text": "Двухэтажная кровать",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/dvuhetaj_kravat.mp3"
           },{
             "id": 11,
             "text": "Книжный шкаф",
-            "filename": "sound/14/.mp3"
+            "filename": "sound/14/knijn_shkaf.mp3"
           },{
             "id": 12,
-            "text": "Буфет",
-            "filename": "sound/14/.mp3"
+            "text": "Буфет, Сервант",
+            "filename": "sound/14/bufet_servant.mp3"
           }
         ]
       },{
         "id": 15,
         "name" : "Овощи",
-        "filename": "sound/15/.mp3",
+        "filename": "sound/15/p15_ovoshi.mp3",
         "list": [
           {
             "id": 1,
             "text": "Кукуруза",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/kukuruza.mp3"
           },{
             "id": 2,
             "text": "Капуста",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/kapusta.mp3"
           },{
             "id": 3,
             "text": "Картофель",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/kartofel.mp3"
           },{
             "id": 4,
             "text": "Томат",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/tomat.mp3"
           },{
             "id": 5,
             "text": "Боб",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/bob.mp3"
           },{
             "id": 6,
             "text": "Морковь",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/morkov.mp3"
           },{
             "id": 7,
             "text": "Баклажан",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/baklajan.mp3"
           },{
             "id": 8,
             "text": "Кабачок",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/kabachek.mp3"
           },{
             "id": 9,
             "text": "Огурец",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/ogurets.mp3"
           },{
             "id": 10,
             "text": "Чеснок",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/luk.mp3"
           },{
             "id": 11,
             "text": "Лук",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/luk.mp3"
           },{
             "id": 12,
             "text": "Рис",
-            "filename": "sound/15/.mp3"
+            "filename": "sound/15/ris.mp3"
           }
         ]
       }

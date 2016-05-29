@@ -1,6 +1,6 @@
 <ion-view class="app-background">
     <ion-content>
-        <div class="overlay"></div>
+        <!--<div class="overlay"></div>-->
         <div class="container">
             <div class="row">
                 <!--<div class="col col-50">-->
@@ -28,7 +28,7 @@
                     <!--</div>-->
                 <!--</div>-->
 
-                <div class="col col-50 col-offset-20" ng-show="words.showWords">
+                <div class="col col-50 col-offset-20 overlay" ng-show="words.showWords">
                     <h3 class="title">{{words.currentItem.name}}</h3>
                     <div class="list" ng-if="!words.end">
                         <ion-checkbox class="word"

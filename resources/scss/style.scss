@@ -5,13 +5,13 @@
     }
   }
   .speak {
-    width:178px;
+    width:210px;
   }
   .breath {
-    width:178px;
+    width:210px;
   }
   .dance {
-    width:178px;
+    width:210px;
   }
 }
 @media screen and (max-width: 570px) {
@@ -145,7 +145,7 @@
 
 .dog {
     position: absolute;
-    right:0;
+    right:15px;
     bottom:0;
 }
 
@@ -155,9 +155,9 @@
 }
 
 .overlay {
-  height: 100vh;
-  min-width: 100%;
-  background: #8E6A6A;
-  opacity: 0.5;
-  position: fixed;
+  //height: 100vh;
+  //min-width: 100%;
+  //background: #1c658e;
+  opacity: 0.8;
+  //position: fixed;
 }

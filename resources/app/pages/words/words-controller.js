@@ -19,6 +19,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
     words.loadAllWords = function() {
         WordsService.list()
             .success(function (resp) {
+                words.end = false;
                 words.allItems = resp.data;
                 words.init();
             })
@@ -55,7 +56,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
                 words.sound.removeEventListener('loadedmetadata', listener);
             }, 1000*words.sound.duration);
         };
-        words.sound.addEventListener('loadedmetadata', listener);
+        words.sound.addEventListener('loadedmetadata', listener, false);
 
         //setTimeout(function () {
         //    words.sound.play();
@@ -84,7 +85,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
                 words.sound.removeEventListener('loadedmetadata', listener);
             }, 1000*words.sound.duration);
         };
-        words.sound.addEventListener('loadedmetadata', listener);
+        words.sound.addEventListener('loadedmetadata', listener, false);
         //setTimeout(function () {
         //    words.sound.play();
         //    $timeout(function() {
