@@ -954,7 +954,7 @@
             "filename": "sound/18/kostum.mp3"
           },{
             "id": 4,
-            "text": "Куртка",
+            "text": "Рубашка, Куртка",
             "filename": "sound/18/kurtka.mp3"
           },{
             "id": 5,
@@ -982,7 +982,7 @@
             "filename": "sound/18/shlyapa.mp3"
           },{
             "id": 11,
-            "text": "Штаны",
+            "text": "Брюки, Штаны",
             "filename": "sound/18/shtani.mp3"
           },{
             "id": 12,
@@ -1292,7 +1292,7 @@
             "filename": "sound/24/kak_zdorovye.mp3"
           },{
             "id": 6,
-            "text": "Простите",
+            "text": "Простите пожалуйста",
             "filename": "sound/24/prostite.mp3"
           },{
             "id": 7,
