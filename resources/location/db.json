@@ -502,8 +502,8 @@
         "list": [
           {
             "id": 1,
-            "text": "Цикада",
-            "filename": "sound/10/aaaaaaaaa.mp3"
+            "text": "Оса",
+            "filename": "sound/10/osa.mp3"
           },{
             "id": 2,
             "text": "Сороконожка",
@@ -649,7 +649,7 @@
           },{
             "id": 10,
             "text": "Ластик",
-            "filename": "sound/12/lastikkkkkkkkkkkkkkkkkkkkk.mp3"
+            "filename": "sound/12/lastik.mp3"
           },{
             "id": 11,
             "text": "Учебник",
@@ -814,7 +814,7 @@
           },{
             "id": 10,
             "text": "Чеснок",
-            "filename": "sound/15/luk.mp3"
+            "filename": "sound/15/chesnok.mp3"
           },{
             "id": 11,
             "text": "Лук",
@@ -823,6 +823,556 @@
             "id": 12,
             "text": "Рис",
             "filename": "sound/15/ris.mp3"
+          }
+        ]
+      },{
+        "id": 16,
+        "name" : "Фрукты",
+        "filename": "sound/16/p16_frukti.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Банан",
+            "filename": "sound/16/banan.mp3"
+          },{
+            "id": 2,
+            "text": "Апельсин",
+            "filename": "sound/16/apelsin.mp3"
+          },{
+            "id": 3,
+            "text": "Яблоко",
+            "filename": "sound/16/yabloko.mp3"
+          },{
+            "id": 4,
+            "text": "Айва",
+            "filename": "sound/16/ayva.mp3"
+          },{
+            "id": 5,
+            "text": "Гранат",
+            "filename": "sound/16/granat.mp3"
+          },{
+            "id": 6,
+            "text": "Грейпфрут",
+            "filename": "sound/16/greypfrut.mp3"
+          },{
+            "id": 7,
+            "text": "Груша",
+            "filename": "sound/16/grusha.mp3"
+          },{
+            "id": 8,
+            "text": "Кокос",
+            "filename": "sound/16/kokos.mp3"
+          },{
+            "id": 9,
+            "text": "Мандарин",
+            "filename": "sound/16/mandarin.mp3"
+          },{
+            "id": 10,
+            "text": "Лимон",
+            "filename": "sound/16/limon.mp3"
+          },{
+            "id": 11,
+            "text": "Слива",
+            "filename": "sound/16/sliva.mp3"
+          },{
+            "id": 12,
+            "text": "Виноград",
+            "filename": "sound/16/vinograd.mp3"
+          }
+        ]
+      },{
+        "id": 17,
+        "name" : "Ягоды",
+        "filename": "sound/17/p17_yagodi.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Арбуз",
+            "filename": "sound/17/arbuz.mp3"
+          },{
+            "id": 2,
+            "text": "Вишня",
+            "filename": "sound/17/vishnya.mp3"
+          },{
+            "id": 3,
+            "text": "Ежевика",
+            "filename": "sound/17/ejevika.mp3"
+          },{
+            "id": 4,
+            "text": "Клубника",
+            "filename": "sound/17/klubnika.mp3"
+          },{
+            "id": 5,
+            "text": "Малина",
+            "filename": "sound/17/malina.mp3"
+          },{
+            "id": 6,
+            "text": "Смородина",
+            "filename": "sound/17/smorodina.mp3"
+          },{
+            "id": 7,
+            "text": "Кислица",
+            "filename": "sound/17/kislitsa.mp3"
+          },{
+            "id": 8,
+            "text": "Виноград",
+            "filename": "sound/17/vinograd.mp3"
+          },{
+            "id": 9,
+            "text": "Крыжовник",
+            "filename": "sound/17/krijovnik.mp3"
+          },{
+            "id": 10,
+            "text": "Клюква",
+            "filename": "sound/17/klukva.mp3"
+          },{
+            "id": 11,
+            "text": "Чечевица",
+            "filename": "sound/17/chechevitsa.mp3"
+          },{
+            "id": 12,
+            "text": "Черешня",
+            "filename": "sound/17/chereshnya.mp3"
+          }
+        ]
+      },{
+        "id": 18,
+        "name" : "Одежда",
+        "filename": "sound/18/p18_odejda.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Джинсы",
+            "filename": "sound/18/jeans.mp3"
+          },{
+            "id": 2,
+            "text": "Джемпер",
+            "filename": "sound/18/jemper.mp3"
+          },{
+            "id": 3,
+            "text": "Костюм",
+            "filename": "sound/18/kostum.mp3"
+          },{
+            "id": 4,
+            "text": "Куртка",
+            "filename": "sound/18/kurtka.mp3"
+          },{
+            "id": 5,
+            "text": "Пальто",
+            "filename": "sound/18/palto.mp3"
+          },{
+            "id": 6,
+            "text": "Перчатки",
+            "filename": "sound/18/perchatlki.mp3"
+          },{
+            "id": 7,
+            "text": "Пояс",
+            "filename": "sound/18/poyas.mp3"
+          },{
+            "id": 8,
+            "text": "Рубашка",
+            "filename": "sound/18/rubashka.mp3"
+          },{
+            "id": 9,
+            "text": "Шапка",
+            "filename": "sound/18/shapka.mp3"
+          },{
+            "id": 10,
+            "text": "Шляпа",
+            "filename": "sound/18/shlyapa.mp3"
+          },{
+            "id": 11,
+            "text": "Штаны",
+            "filename": "sound/18/shtani.mp3"
+          },{
+            "id": 12,
+            "text": "Тюбетейка",
+            "filename": "sound/18/tubiteyka.mp3"
+          }
+        ]
+      },{
+        "id": 19,
+        "name" : "Тело",
+        "filename": "sound/19/p19_telo.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Голова",
+            "filename": "sound/19/golova.mp3"
+          },{
+            "id": 2,
+            "text": "Рука",
+            "filename": "sound/19/ruka.mp3"
+          },{
+            "id": 3,
+            "text": "Бедро",
+            "filename": "sound/19/bedro.mp3"
+          },{
+            "id": 4,
+            "text": "Колено",
+            "filename": "sound/19/koleno.mp3"
+          },{
+            "id": 5,
+            "text": "Ладонь",
+            "filename": "sound/19/ladon.mp3"
+          },{
+            "id": 6,
+            "text": "Палец",
+            "filename": "sound/19/palets.mp3"
+          },{
+            "id": 7,
+            "text": "Нога",
+            "filename": "sound/19/noga.mp3"
+          },{
+            "id": 8,
+            "text": "Плечо",
+            "filename": "sound/19/plethe.mp3"
+          },{
+            "id": 9,
+            "text": "Спина",
+            "filename": "sound/19/spina.mp3"
+          },{
+            "id": 10,
+            "text": "Шея",
+            "filename": "sound/19/sheya.mp3"
+          },{
+            "id": 11,
+            "text": "Ступня",
+            "filename": "sound/19/stupnya.mp3"
+          },{
+            "id": 12,
+            "text": "Талия",
+            "filename": "sound/19/taliya.mp3"
+          }
+        ]
+      },{
+        "id": 20,
+        "name" : "Транспорт",
+        "filename": "sound/20/p20_transport.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Автобус",
+            "filename": "sound/20/avtobus.mp3"
+          },{
+            "id": 2,
+            "text": "Автомобиль",
+            "filename": "sound/20/avtomobil.mp3"
+          },{
+            "id": 3,
+            "text": "Автоприцеп",
+            "filename": "sound/20/avtopritsep.mp3"
+          },{
+            "id": 4,
+            "text": "Фургон",
+            "filename": "sound/20/furgon.mp3"
+          },{
+            "id": 5,
+            "text": "Грузовик",
+            "filename": "sound/20/gruzovik.mp3"
+          },{
+            "id": 6,
+            "text": "Метро",
+            "filename": "sound/20/metro.mp3"
+          },{
+            "id": 7,
+            "text": "Мотоцикл",
+            "filename": "sound/20/mototsikl.mp3"
+          },{
+            "id": 8,
+            "text": "Остановка",
+            "filename": "sound/20/ostanovka.mp3"
+          },{
+            "id": 9,
+            "text": "Поезд",
+            "filename": "sound/20/poezd.mp3"
+          },{
+            "id": 10,
+            "text": "Такси",
+            "filename": "sound/20/taksi.mp3"
+          },{
+            "id": 11,
+            "text": "Велосипед",
+            "filename": "sound/20/velosiped.mp3"
+          },{
+            "id": 12,
+            "text": "Трамвай",
+            "filename": "sound/20/tramvay.mp3"
+          }
+        ]
+      },{
+        "id": 21,
+        "name" : "Цвета",
+        "filename": "sound/21/p21_tsveta.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Белый",
+            "filename": "sound/21/beliy.mp3"
+          },{
+            "id": 2,
+            "text": "Черный",
+            "filename": "sound/21/cherniy.mp3"
+          },{
+            "id": 3,
+            "text": "Фиолетовый",
+            "filename": "sound/21/fioletoviy.mp3"
+          },{
+            "id": 4,
+            "text": "Голубой",
+            "filename": "sound/21/goluboy.mp3"
+          },{
+            "id": 5,
+            "text": "Желтый",
+            "filename": "sound/21/jeltiy.mp3"
+          },{
+            "id": 6,
+            "text": "Коричневый",
+            "filename": "sound/21/korichneviy.mp3"
+          },{
+            "id": 7,
+            "text": "Красный",
+            "filename": "sound/21/krasniy.mp3"
+          },{
+            "id": 8,
+            "text": "Розовый",
+            "filename": "sound/21/rozoviy.mp3"
+          },{
+            "id": 9,
+            "text": "Синий",
+            "filename": "sound/21/siniy.mp3"
+          },{
+            "id": 10,
+            "text": "Светлый",
+            "filename": "sound/21/svetliy.mp3"
+          },{
+            "id": 11,
+            "text": "Темный",
+            "filename": "sound/21/temniy.mp3"
+          },{
+            "id": 12,
+            "text": "Зеленый",
+            "filename": "sound/21/zeleniy.mp3"
+          }
+        ]
+      },{
+        "id": 22,
+        "name" : "Эмоции",
+        "filename": "sound/22/p22_emotsii.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Грустный",
+            "filename": "sound/22/grustniy.mp3"
+          },{
+            "id": 2,
+            "text": "Напугаться",
+            "filename": "sound/22/napugatsa.mp3"
+          },{
+            "id": 3,
+            "text": "Озабоченный",
+            "filename": "sound/22/ozabochenniy.mp3"
+          },{
+            "id": 4,
+            "text": "Расстроенный",
+            "filename": "sound/22/rastroenniy.mp3"
+          },{
+            "id": 5,
+            "text": "Раздражение",
+            "filename": "sound/22/razdrajeniye.mp3"
+          },{
+            "id": 6,
+            "text": "Разочарованный",
+            "filename": "sound/22/razocharovanniy.mp3"
+          },{
+            "id": 7,
+            "text": "Счастливый",
+            "filename": "sound/22/schastliviy.mp3"
+          },{
+            "id": 8,
+            "text": "Сердитый",
+            "filename": "sound/22/serditiy.mp3"
+          },{
+            "id": 9,
+            "text": "Скучать",
+            "filename": "sound/22/skuchat.mp3"
+          },{
+            "id": 10,
+            "text": "Удивление",
+            "filename": "sound/22/udivleniye.mp3"
+          },{
+            "id": 11,
+            "text": "Взволнованный",
+            "filename": "sound/22/vzvolnovanniy.mp3"
+          },{
+            "id": 12,
+            "text": "Забавный",
+            "filename": "sound/22/zabavniy.mp3"
+          }
+        ]
+      },{
+        "id": 23,
+        "name" : "Страны",
+        "filename": "sound/23/p23_strani.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Германия",
+            "filename": "sound/23/germaniya.mp3"
+          },{
+            "id": 2,
+            "text": "Великобритания",
+            "filename": "sound/23/velikobritaniya.mp3"
+          },{
+            "id": 3,
+            "text": "Россия",
+            "filename": "sound/23/russia.mp3"
+          },{
+            "id": 4,
+            "text": "Япония",
+            "filename": "sound/23/yaponiya.mp3"
+          },{
+            "id": 5,
+            "text": "Франция",
+            "filename": "sound/23/fransia.mp3"
+          },{
+            "id": 6,
+            "text": "США",
+            "filename": "sound/23/usa.mp3"
+          },{
+            "id": 7,
+            "text": "Китай",
+            "filename": "sound/23/kitay.mp3"
+          },{
+            "id": 8,
+            "text": "Италия",
+            "filename": "sound/23/italia.mp3"
+          },{
+            "id": 9,
+            "text": "Испания",
+            "filename": "sound/23/ispania.mp3"
+          },{
+            "id": 10,
+            "text": "Австралия",
+            "filename": "sound/23/avstralia.mp3"
+          },{
+            "id": 11,
+            "text": "Бразилия",
+            "filename": "sound/23/brazilia.mp3"
+          },{
+            "id": 12,
+            "text": "Мексика",
+            "filename": "sound/23/meksika.mp3"
+          }
+        ]
+      },{
+        "id": 24,
+        "name" : "Беседа",
+        "filename": "sound/24/p24_beseda.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Доброе утро!",
+            "filename": "sound/24/dobroe_utro.mp3"
+          },{
+            "id": 2,
+            "text": "Друзья!",
+            "filename": "sound/24/druzya.mp3"
+          },{
+            "id": 3,
+            "text": "Гость",
+            "filename": "sound/24/gost.mp3"
+          },{
+            "id": 4,
+            "text": "Как дела?",
+            "filename": "sound/24/kak_dela.mp3"
+          },{
+            "id": 5,
+            "text": "Как ваше здоровье?",
+            "filename": "sound/24/kak_zdorovye.mp3"
+          },{
+            "id": 6,
+            "text": "Простите",
+            "filename": "sound/24/prostite.mp3"
+          },{
+            "id": 7,
+            "text": "С приездом!",
+            "filename": "sound/24/s_priezdom.mp3"
+          },{
+            "id": 8,
+            "text": "Спасибо",
+            "filename": "sound/24/spasibo.mp3"
+          },{
+            "id": 9,
+            "text": "Встреча",
+            "filename": "sound/24/vstrecha.mp3"
+          },{
+            "id": 10,
+            "text": "Здравствуйте (ответное)",
+            "filename": "sound/24/zdrav_otvetnoye.mp3"
+          },{
+            "id": 11,
+            "text": "Здравствуйте",
+            "filename": "sound/24/zdravstvuyte.mp3"
+          },{
+            "id": 12,
+            "text": "Знакомство",
+            "filename": "sound/24/znakomstvo.mp3"
+          }
+        ]
+      },{
+        "id": 25,
+        "name" : "Музыкальные инструменты",
+        "filename": "sound/25/p25_muz_instrumenty.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Арфа",
+            "filename": "sound/25/arfa.mp3"
+          },{
+            "id": 2,
+            "text": "Балалайка",
+            "filename": "sound/25/balalayka.mp3"
+          },{
+            "id": 3,
+            "text": "Барабан",
+            "filename": "sound/25/baraban.mp3"
+          },{
+            "id": 4,
+            "text": "Баян",
+            "filename": "sound/25/bayan.mp3"
+          },{
+            "id": 5,
+            "text": "Дудка",
+            "filename": "sound/25/dudka.mp3"
+          },{
+            "id": 6,
+            "text": "Флейта",
+            "filename": "sound/25/fleyta.mp3"
+          },{
+            "id": 7,
+            "text": "Фортепиано",
+            "filename": "sound/25/fortepiano.mp3"
+          },{
+            "id": 8,
+            "text": "Гармоника",
+            "filename": "sound/25/garmonika.mp3"
+          },{
+            "id": 9,
+            "text": "Гитара",
+            "filename": "sound/25/gitara.mp3"
+          },{
+            "id": 10,
+            "text": "Скрипка",
+            "filename": "sound/25/skripka.mp3"
+          },{
+            "id": 11,
+            "text": "Труба",
+            "filename": "sound/25/truba.mp3"
+          },{
+            "id": 12,
+            "text": "Зурна",
+            "filename": "sound/25/zurna.mp3"
           }
         ]
       }
