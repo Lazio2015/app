@@ -11,7 +11,7 @@
             "filename": "sound/1/pizza.mp3"
           },{
             "id": 2,
-            "text": "Мороженное",
+            "text": "Мороженое",
             "filename": "sound/1/morojennoye.mp3"
           },{
             "id": 3,
@@ -47,7 +47,7 @@
             "filename": "sound/1/jarkoye.mp3"
           },{
             "id": 11,
-            "text": "Жаренная рыба",
+            "text": "Жареная рыба",
             "filename": "sound/1/jarenaya_riba.mp3"
           },{
             "id": 12,

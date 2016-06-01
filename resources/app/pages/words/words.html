@@ -2,6 +2,7 @@
     <ion-content>
         <!--<div class="overlay"></div>-->
         <div class="container">
+            <h3 class="title" style="text-align: center" ng-show="words.showWords">{{words.currentItem.name}}</h3>
             <div class="row">
                 <!--<div class="col col-50">-->
                 <!--<jqcloud auto-resize="true" font-size="{from:0.3, to:0.1}" words="words.currentItem.list" steps="7" id="cloud-dynamic"></jqcloud>-->
@@ -29,7 +30,6 @@
                 <!--</div>-->
 
                 <div class="col col-50 col-offset-20 overlay" ng-show="words.showWords">
-                    <h3 class="title">{{words.currentItem.name}}</h3>
                     <div class="list" ng-if="!words.end">
                         <ion-checkbox class="word"
                                       ng-repeat="item in words.currentItem.list" ng-click="words.sayWord(item)">{{item.text}}
