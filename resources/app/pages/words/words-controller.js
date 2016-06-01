@@ -115,7 +115,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
                     words.imageStay = 2;
                     $timeout(function() {
                         words.loadAllWords();
-                        //if (confirm('Повторить!?')) {
+                        //if (confirm('Answer!?')) {
                         //    words.loadAllWords();
                         //    words.end = false;
                         //} else {
@@ -142,7 +142,8 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
     words.resolve();
 
     //words.sound_on = false;
-    //words.play = function(item) {
+    //words.sayWord = function(item) {
+    //    words.imageStay = 1;
     //    var url = "/android_asset/www/sound/" + item.filename;
     //    var media = $cordovaMedia.newMedia(url);
     //    if (words.sound_on == true) {
@@ -156,39 +157,24 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
     //        words.sound_on = false;
     //        media.stop();
     //        media.release();
-    //        words.imageStay = false;
+    //        words.imageStay = 0;
     //        words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
-    //    }, 3000);
-    //};
-
-    //words.playCat = function(src) {
-    //    console.log(src);
-    //    var url = "/android_asset/www/sound/" + src;
-    //    var media = $cordovaMedia.newMedia(url, null, null, null);
-    //    media.play();
-    //    $timeout(function() {
-    //        media.stop();
-    //        media.release();
-    //        words.imageStay = false;
     //        console.log('kill');
     //    }, 3000);
     //};
-    /*
-     words.addHandlers = function(arr) {
-     angular.forEach(arr, function(item) {
-     item.handlers = {
-     click: function () {
-     //play name music
-     words.imageStay = true;
-     //words.play(item.filename);
-     //jQuery(e.target).hide();
-     console.log(item.id);
-     console.log(words.currentItem.list);
-     words.currentItem.list = angular.removeFromObjectArray(arr, item.id);
-     words.imageStay = false;
-     }
-     };
-     });
-     };
-     */
+    //
+    //words.sayCat = function(src) {
+    //    words.imageStay = 1;
+    //    var url = "/android_asset/www/sound/" + src;
+    //    var media = $cordovaMedia.newMedia(url);
+    //    media.play();
+    //    $timeout(function() {
+    //        words.sound_on = false;
+    //        media.stop();
+    //        media.release();
+    //        words.imageStay = 0;
+    //        words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
+    //        console.log('killCat');
+    //    }, 5000);
+    //};
 }
