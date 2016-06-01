@@ -1375,6 +1375,281 @@
             "filename": "sound/25/zurna.mp3"
           }
         ]
+      },{
+        "id": 26,
+        "name" : "Профессии",
+        "filename": "sound/26/p26_professii.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Артист",
+            "filename": "sound/26/artist.mp3"
+          },{
+            "id": 2,
+            "text": "Фотограф",
+            "filename": "sound/26/fotograf.mp3"
+          },{
+            "id": 3,
+            "text": "Журналист",
+            "filename": "sound/26/jurnalist.mp3"
+          },{
+            "id": 4,
+            "text": "Писатель",
+            "filename": "sound/26/pisatel.mp3"
+          },{
+            "id": 5,
+            "text": "Плотник",
+            "filename": "sound/26/plotnik.mp3"
+          },{
+            "id": 6,
+            "text": "Медсестра",
+            "filename": "sound/26/medsestra.mp3"
+          },{
+            "id": 7,
+            "text": "Врач",
+            "filename": "sound/26/vrach.mp3"
+          },{
+            "id": 8,
+            "text": "Пожарный",
+            "filename": "sound/26/pojarniy.mp3"
+          },{
+            "id": 9,
+            "text": "Повар",
+            "filename": "sound/26/povar.mp3"
+          },{
+            "id": 10,
+            "text": "Секретарь",
+            "filename": "sound/26/secretar.mp3"
+          },{
+            "id": 11,
+            "text": "Солдат",
+            "filename": "sound/26/soldat.mp3"
+          },{
+            "id": 12,
+            "text": "Учительница",
+            "filename": "sound/26/uchitelnitsa.mp3"
+          }
+        ]
+      },{
+        "id": 27,
+        "name" : "Семья",
+        "filename": "sound/27/p27_semya.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Бабушка",
+            "filename": "sound/27/babushka.mp3"
+          },{
+            "id": 2,
+            "text": "Брат(младший) ",
+            "filename": "sound/27/brat_ml.mp3"
+          },{
+            "id": 3,
+            "text": "Брат(старший)",
+            "filename": "sound/27/brat_starh.mp3"
+          },{
+            "id": 4,
+            "text": "Дядя",
+            "filename": "sound/27/dadya.mp3"
+          },{
+            "id": 5,
+            "text": "Дед",
+            "filename": "sound/27/ded.mp3"
+          },{
+            "id": 6,
+            "text": "Мать",
+            "filename": "sound/27/mama.mp3"
+          },{
+            "id": 7,
+            "text": "Отец",
+            "filename": "sound/27/otets.mp3"
+          },{
+            "id": 8,
+            "text": "Ребенок",
+            "filename": "sound/27/rebyenok.mp3"
+          },{
+            "id": 9,
+            "text": "Родители",
+            "filename": "sound/27/roditeli.mp3"
+          },{
+            "id": 10,
+            "text": "Сестра(младшая)",
+            "filename": "sound/27/sestra_ml.mp3"
+          },{
+            "id": 11,
+            "text": "Сестра(старшая)",
+            "filename": "sound/27/sestra_starh.mp3"
+          },{
+            "id": 12,
+            "text": "Тётя",
+            "filename": "sound/27/tetya.mp3"
+          }
+        ]
+      },{
+        "id": 28,
+        "name" : "Погода, время",
+        "filename": "sound/28/p28_pogoda.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Жара",
+            "filename": "sound/28/jara.mp3"
+          },{
+            "id": 2,
+            "text": "Дождь",
+            "filename": "sound/28/dojd.mp3"
+          },{
+            "id": 3,
+            "text": "Год",
+            "filename": "sound/28/god.mp3"
+          },{
+            "id": 4,
+            "text": "Лето",
+            "filename": "sound/28/leto.mp3"
+          },{
+            "id": 5,
+            "text": "Месяц",
+            "filename": "sound/28/mesats.mp3"
+          },{
+            "id": 6,
+            "text": "Молния",
+            "filename": "sound/28/molniya.mp3"
+          },{
+            "id": 7,
+            "text": "Облако",
+            "filename": "sound/28/oblako.mp3"
+          },{
+            "id": 8,
+            "text": "Осень",
+            "filename": "sound/28/osen.mp3"
+          },{
+            "id": 9,
+            "text": "Снег",
+            "filename": "sound/28/sneg.mp3"
+          },{
+            "id": 10,
+            "text": "Солнце",
+            "filename": "sound/28/solntse.mp3"
+          },{
+            "id": 11,
+            "text": "Весна",
+            "filename": "sound/28/vesna.mp3"
+          },{
+            "id": 12,
+            "text": "Зима",
+            "filename": "sound/28/zima.mp3"
+          }
+        ]
+      },{
+        "id": 29,
+        "name" : "Счет, время",
+        "filename": "sound/29/p29_schet.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "2 -два",
+            "filename": "sound/29/dva.mp3"
+          },{
+            "id": 2,
+            "text": "0 -ноль",
+            "filename": "sound/29/nol.mp3"
+          },{
+            "id": 3,
+            "text": "1 -один",
+            "filename": "sound/29/odin.mp3"
+          },{
+            "id": 4,
+            "text": "11 -одиннадцать",
+            "filename": "sound/29/odinnatsat.mp3"
+          },{
+            "id": 5,
+            "text": "50 -пятьдесят",
+            "filename": "sound/29/pyatdesat.mp3"
+          },{
+            "id": 6,
+            "text": "40 -сорок",
+            "filename": "sound/29/sorok.mp3"
+          },{
+            "id": 7,
+            "text": "100 -сто",
+            "filename": "sound/29/sto.mp3"
+          },{
+            "id": 8,
+            "text": "126 -сто двадцать шесть",
+            "filename": "sound/29/stodvadshest.mp3"
+          },{
+            "id": 9,
+            "text": "12 -двенадцать",
+            "filename": "sound/29/dvenadtsat.mp3"
+          },{
+            "id": 10,
+            "text": "115 -сто пятнадцать",
+            "filename": "sound/29/stopyaatnad.mp3"
+          },{
+            "id": 11,
+            "text": "1000 -тысяча",
+            "filename": "sound/29/tisatsa.mp3"
+          },{
+            "id": 12,
+            "text": "3 -три",
+            "filename": "sound/29/tri.mp3"
+          }
+        ]
+      },{
+        "id": 30,
+        "name" : "Согласие, несогласие",
+        "filename": "sound/30/p30_soglasie.mp3",
+        "list": [
+          {
+            "id": 1,
+            "text": "Хорошо",
+            "filename": "sound/30/horosho.mp3"
+          },{
+            "id": 2,
+            "text": "Конечно",
+            "filename": "sound/30/konechno.mp3"
+          },{
+            "id": 3,
+            "text": "Ладно",
+            "filename": "sound/30/ladno.mp3"
+          },{
+            "id": 4,
+            "text": "Несомненно",
+            "filename": "sound/30/nesomnenno.mp3"
+          },{
+            "id": 5,
+            "text": "Можно",
+            "filename": "sound/30/mojno.mp3"
+          },{
+            "id": 6,
+            "text": "Не возражаю",
+            "filename": "sound/30/ne_vozrajayu.mp3"
+          },{
+            "id": 7,
+            "text": "Обязательно",
+            "filename": "sound/30/obyazatelno.mp3"
+          },{
+            "id": 8,
+            "text": "Разумеется",
+            "filename": "sound/30/razumeetsa.mp3"
+          },{
+            "id": 9,
+            "text": "С удовольствием",
+            "filename": "sound/30/s_udovolstviem.mp3"
+          },{
+            "id": 10,
+            "text": "Возможно",
+            "filename": "sound/30/vozmojno.mp3"
+          },{
+            "id": 11,
+            "text": "Я могу",
+            "filename": "sound/30/ya_mogu.mp3"
+          },{
+            "id": 12,
+            "text": "Я согласен",
+            "filename": "sound/30/ya_soglasen.mp3"
+          }
+        ]
       }
     ],
   "status" : "200"
