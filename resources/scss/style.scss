@@ -14,7 +14,7 @@
     width:210px;
   }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 570px) and (min-width: 320px) {
   .list {
     .item {
       font-size: 10px;
@@ -150,8 +150,13 @@
 }
 
 .word {
-  background:none;float:left; width:50%; border:0px;
-  color:#3719CF; font-weight: 900
+  background:none;
+  float:left;
+  width:50%;
+  border:0px;
+  color:#3719CF;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .overlay {
@@ -159,5 +164,11 @@
   //min-width: 100%;
   //background: #1c658e;
   opacity: 0.8;
+  height: 90vh;
+  line-height: 90vh;
   //position: fixed;
+}
+.list {
+  display: inline-block;
+  vertical-align: middle;
 }

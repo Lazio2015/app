@@ -137,7 +137,6 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
 
     words.resolve = function() {
         words.loadAllWords();
-        //words.addHandlers(words.currentItem.list);
     };
     words.resolve();
 
