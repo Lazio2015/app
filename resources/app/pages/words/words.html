@@ -28,12 +28,14 @@
                     <!--</div>-->
                 <!--</div>-->
 
-                <div class="col col-50 col-offset-20 overlay" ng-show="words.showWords">
-                    <h3 class="title" style="text-align: center" ng-show="words.showWords">{{words.currentItem.name}}</h3>
-                    <div class="list" ng-if="!words.end">
-                        <ion-checkbox class="word"
-                                      ng-repeat="item in words.currentItem.list" ng-click="words.sayWord(item)">{{item.text}}
-                        </ion-checkbox>
+                <div class="col col-50 col-offset-20" ng-show="words.showWords">
+                    <h3 class="title" style="text-align: center" ng-hide="words.currentItem.list.length < 1">{{words.currentItem.name}}</h3>
+                    <div class="overlay">
+                        <div class="list" ng-if="!words.end">
+                            <ion-checkbox class="word"
+                                          ng-repeat="item in words.currentItem.list" ng-click="words.sayWord(item)">{{item.text}}
+                            </ion-checkbox>
+                        </div>
                     </div>
                 </div>
                     <audio src="{{words.file}}" id="sound">
