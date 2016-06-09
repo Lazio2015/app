@@ -5,12 +5,15 @@
     }
   }
   .speak {
+    content: url('../img/speak_new.gif');
     width:210px;
   }
   .breath {
+    content: url('../img/breath-300x400.gif');
     width:210px;
   }
   .dance {
+    content: url('../img/hi.gif');
     width:210px;
   }
 }
@@ -24,12 +27,15 @@
     font-size: 17px;
   }
   .speak {
+    content: url('../img/speak_new.gif');
     width:167px;
   }
   .breath {
+    content: url('../img/breath-300x400.gif');
     width:167px;
   }
   .dance {
+    content: url('../img/hi.gif');
     width:167px;
   }
 }
@@ -42,12 +48,15 @@
   }
 
   .speak {
+    content: url('../img/speak_new.gif');
     width:220px;
   }
   .breath {
+    content: url('../img/breath-300x400.gif');
     width:220px;
   }
   .dance {
+    content: url('../img/hi.gif');
     width:220px;
   }
 }
@@ -56,23 +65,38 @@
     min-height: 400px;
     min-width: 500px;
   }
+
+  .speak {
+    content: url('../img/speak_new.gif');
+    width:395px;
+  }
+
+  .breath {
+    content: url('../img/breath-300x400.gif');
+    width:395px;
+  }
+
+  .dance {
+    content: url('../img/hi.gif');
+    width:395px;
+  }
 }
 .app-background {
   background: url('../img/background.png');
   background-size: 100% 100%;
 }
 
-.speak {
-  content: url('../img/speak_new.gif');
-}
-
-.breath {
-  content: url('../img/breath-300x400.gif');
-}
-
-.dance {
-  content: url('../img/hi.gif');
-}
+//.speak {
+//  content: url('../img/speak_new.gif');
+//}
+//
+//.breath {
+//  content: url('../img/breath-300x400.gif');
+//}
+//
+//.dance {
+//  content: url('../img/hi.gif');
+//}
 
 #cloud-dynamic { width: 80%; height: 400px; }
 

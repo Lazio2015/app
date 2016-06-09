@@ -47,7 +47,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
         words.file = item.filename;
         words.sound = document.getElementById("sound");
         var listener = function() {
-            //console.log(words.sound.duration);
+            console.log('wordDur', words.sound.duration);
             words.sound.play();
             $timeout(function() {
                 words.imageStay = 0;
@@ -76,7 +76,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
         words.file = filename;
         words.sound = document.getElementById("sound");
         var listener = function() {
-            //console.log(words.sound.duration);
+            console.log('sayDur',words.sound.duration);
             words.sound.play();
             $timeout(function() {
                 words.showWords = true;
@@ -98,6 +98,24 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
         //}, 150);
     };
 
+    words.playFinish = function() {
+        words.end = true;
+        words.imageStay = 2;
+        words.music = document.getElementById("finish");
+        words.music.play();
+        $timeout(function() {
+            words.loadAllWords();
+            //if (confirm('Answer!?')) {
+            //    words.loadAllWords();
+            //    words.end = false;
+            //} else {
+            //    //$ionicHistory.goBack();
+            //    ionic.Platform.exitApp();
+            //    console.log('no');
+            //}
+        }, 4800);
+    };
+
     $scope.$watch(function(){
         return words.currentItem.list;
     }, function(){
@@ -111,22 +129,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
                     words.currentItem = {
                         list: []
                     };
-                    words.end = true;
-                    words.imageStay = 2;
-                    $timeout(function() {
-                        words.loadAllWords();
-                        //if (confirm('Answer!?')) {
-                        //    words.loadAllWords();
-                        //    words.end = false;
-                        //} else {
-                        //    //$ionicHistory.goBack();
-                        //    ionic.Platform.exitApp();
-                        //    console.log('no');
-                        //}
-                    }, 3000);
-
-                    //document.getElementById("sound");
-
+                    words.playFinish();
                 } else {
                     words.sayCategory(words.currentItem.filename);
                 }
