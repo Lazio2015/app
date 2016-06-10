@@ -57,18 +57,6 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
             }, 1000*words.sound.duration);
         };
         words.sound.addEventListener('loadedmetadata', listener, false);
-
-        //setTimeout(function () {
-        //    words.sound.play();
-        //    $timeout(function() {
-        //        $timeout(function() {
-        //            words.imageStay = 0;
-        //            //words.sound.pause();
-        //            words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
-        //            console.log('kill');
-        //        }, 1000*words.sound.duration);
-        //    },300);
-        //}, 150);
     };
 
     words.sayCategory = function(filename) {
@@ -86,16 +74,6 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
             }, 1000*words.sound.duration);
         };
         words.sound.addEventListener('loadedmetadata', listener, false);
-        //setTimeout(function () {
-        //    words.sound.play();
-        //    $timeout(function() {
-        //        $timeout(function() {
-        //            words.showWords = true;
-        //            words.imageStay = 0;
-        //            console.log('killCat');
-        //        }, 1000*words.sound.duration);
-        //    },500);
-        //}, 150);
     };
 
     words.playFinish = function() {
@@ -133,7 +111,6 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
                 } else {
                     words.sayCategory(words.currentItem.filename);
                 }
-                //words.addHandlers(words.currentItem.list);
             }
         }, 1000);
     });
@@ -143,40 +120,48 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
     };
     words.resolve();
 
+    //
     //words.sound_on = false;
     //words.sayWord = function(item) {
     //    words.imageStay = 1;
-    //    var url = "/android_asset/www/sound/" + item.filename;
+    //    var url = "/android_asset/www/" + item.filename;
     //    var media = $cordovaMedia.newMedia(url);
     //    if (words.sound_on == true) {
     //        media.stop();
     //        media.release();
+    //        return;
     //    }
     //    words.sound_on = true;
     //    media.play();
     //
     //    $timeout(function() {
+    //        words.imageStay = 0;
     //        words.sound_on = false;
     //        media.stop();
     //        media.release();
-    //        words.imageStay = 0;
     //        words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
     //        console.log('kill');
-    //    }, 3000);
+    //    }, 1000*item.duration);
     //};
     //
-    //words.sayCat = function(src) {
+    //words.sayCategory = function(src, duration) {
     //    words.imageStay = 1;
-    //    var url = "/android_asset/www/sound/" + src;
+    //    var url = "/android_asset/www/" + src;
     //    var media = $cordovaMedia.newMedia(url);
+    //    if (words.sound_on == true) {
+    //        media.stop();
+    //        media.release();
+    //        return;
+    //    }
+    //    words.sound_on = true;
     //    media.play();
     //    $timeout(function() {
+    //        words.imageStay = 0;
     //        words.sound_on = false;
     //        media.stop();
     //        media.release();
-    //        words.imageStay = 0;
-    //        words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
+    //        words.showWords = true;
     //        console.log('killCat');
-    //    }, 5000);
+    //    }, 1000*duration);
     //};
 }
