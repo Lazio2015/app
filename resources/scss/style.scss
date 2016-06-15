@@ -1,27 +1,10 @@
-@media screen and (max-width: 670px) and (min-width: 580px){
-  .list {
-    .item {
-      font-size: 11px;
-    }
-  }
-  .speak {
-    content: url('../img/speak_new.gif');
-    width:210px;
-  }
-  .breath {
-    content: url('../img/breath-300x400.gif');
-    width:210px;
-  }
-  .dance {
-    content: url('../img/hi.gif');
-    width:210px;
-  }
-}
 @media screen and (max-width: 570px) and (min-width: 320px) {
   .list {
     .item {
       font-size: 10px;
     }
+    min-height: 200px;
+    min-width: 300px;
   }
   h3 {
     font-size: 17px;
@@ -39,12 +22,34 @@
     width:167px;
   }
 }
-
+@media screen and (max-width: 670px) and (min-width: 580px){
+  .list {
+    .item {
+      font-size: 11px;
+    }
+    min-height: 250px;
+    min-width: 350px;
+  }
+  .speak {
+    content: url('../img/speak_new.gif');
+    width:210px;
+  }
+  .breath {
+    content: url('../img/breath-300x400.gif');
+    width:210px;
+  }
+  .dance {
+    content: url('../img/hi.gif');
+    width:210px;
+  }
+}
 @media screen and (max-width: 800px) and (min-width: 680px){
   .list {
     .item {
       font-size: 11px;
     }
+    min-height: 300px;
+    min-width: 400px;
   }
 
   .speak {
@@ -207,6 +212,10 @@
 }
 
 @font-face {
-  font-family: Basar Efendi; /* Гарнитура шрифта */
-  src: url(../img/sandy_comic.ttf); /* Путь к файлу со шрифтом */
+  font-family: Basar Efendi;
+  src: url(../img/sandy_comic.ttf);
+}
+
+.title {
+  font-family: Basar Efendi;
 }
