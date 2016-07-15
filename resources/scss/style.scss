@@ -86,6 +86,11 @@
     width:395px;
   }
 }
+
+@font-face {
+  font-family: Basar Efendi;
+  src: url(../img/sandy_comic.ttf);
+}
 .app-background {
   background: url('../img/background.png');
   background-size: 100% 100%;
@@ -102,7 +107,7 @@
 //.dance {
 //  content: url('../img/hi.gif');
 //}
-
+/*
 #cloud-dynamic { width: 80%; height: 400px; }
 
 #word-cloud {
@@ -175,7 +180,7 @@
   -webkit-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
 }
-
+*/
 .container {
   height:95vh;
 }
@@ -195,6 +200,10 @@
   font-weight: 900;
   font-size: 20px;
   font-family: Basar Efendi;
+
+  .item-content{
+    background:none;
+  }
 }
 
 .overlay {
@@ -211,11 +220,11 @@
   vertical-align: middle;
 }
 
-@font-face {
-  font-family: Basar Efendi;
-  src: url(../img/sandy_comic.ttf);
-}
-
 .title {
   font-family: Basar Efendi;
+}
+//
+.main-menu {
+  //background: white;
+  font-size: 20px;
 }

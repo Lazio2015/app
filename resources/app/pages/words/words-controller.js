@@ -1,4 +1,4 @@
-function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory) {
+function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicSideMenuDelegate) {
     var words = this;
     words.title = 'Words Ctrl';
     words.allItems = [];
@@ -15,6 +15,10 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
     //    words: 'false'
     //};
     words.showWords = false;
+
+    $scope.toggleLeft = function() {
+        $ionicSideMenuDelegate.toggleLeft();
+    };
 
     words.loadAllWords = function() {
         WordsService.list()
@@ -43,6 +47,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
     };
 
     words.sayWord = function(item) {
+        words.disabled = true;
         words.imageStay = 1;
         words.file = item.filename;
         words.sound = document.getElementById("sound");
@@ -50,7 +55,12 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
             console.log('wordDur', words.sound.duration);
             words.sound.play();
             $timeout(function() {
-                words.imageStay = 0;
+                if (words.counter == (words.allItems.length-1) && words.currentItem.list.length == 1) {
+                    words.playFinish();
+                } else {
+                    words.imageStay = 0;
+                }
+                words.disabled = false;
                 words.currentItem.list = angular.removeFromObjectArray(words.currentItem.list, item.id);
                 console.log('kill');
                 words.sound.removeEventListener('loadedmetadata', listener);
@@ -60,6 +70,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
     };
 
     words.sayCategory = function(filename) {
+        words.disabled = true;
         words.imageStay = 1;
         words.file = filename;
         words.sound = document.getElementById("sound");
@@ -68,6 +79,7 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
             words.sound.play();
             $timeout(function() {
                 words.showWords = true;
+                words.disabled = false;
                 words.imageStay = 0;
                 console.log('killCat');
                 words.sound.removeEventListener('loadedmetadata', listener);
@@ -107,13 +119,20 @@ function WordsCtrl($cordovaMedia, $scope, WordsService, $timeout, $ionicHistory)
                     words.currentItem = {
                         list: []
                     };
-                    words.playFinish();
+                    //words.playFinish();
                 } else {
                     words.sayCategory(words.currentItem.filename);
                 }
             }
         }, 1000);
     });
+
+    words.changeCat = function (item) {
+        console.log('item', item);
+        console.log('currentItem', words.currentItem);
+        words.counter = item.id - 1;
+        words.currentItem = item;
+    };
 
     words.resolve = function() {
         words.loadAllWords();

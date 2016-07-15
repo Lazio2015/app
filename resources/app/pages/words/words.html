@@ -27,14 +27,27 @@
                         <!--<div class="clearfix"></div>-->
                     <!--</div>-->
                 <!--</div>-->
-
-                <div class="col col-50 col-offset-20" ng-show="words.showWords">
+                <div class="col col-20">
+                    <button type="button" class="" ng-init="menuOpen=false" ng-click="menuOpen = !menuOpen">
+                        <i class="ion-navicon-round main-menu"></i>
+                    </button>
+                    <div ng-if="menuOpen">
+                        <ul>
+                            <li ng-repeat="item in words.allItems" ng-click="words.changeCat(item)" style="cursor:pointer">
+                                {{item.name}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-50" ng-show="words.showWords">
                     <div class="overlay">
                         <div class="list" ng-if="!words.end">
                             <h3 class="title" style="text-align: center" ng-hide="words.currentItem.list.length < 1">{{words.currentItem.name}}</h3>
-                            <ion-checkbox class="word"
-                                          ng-repeat="item in words.currentItem.list" ng-click="words.sayWord(item)">{{item.text}}
-                            </ion-checkbox>
+                            <ion-radio class="word"
+                                          ng-repeat="item in words.currentItem.list"
+                                          ng-click="words.sayWord(item)"
+                                          ng-disabled="words.disabled">{{item.text}}
+                            </ion-radio>
                         </div>
                     </div>
                 </div>
